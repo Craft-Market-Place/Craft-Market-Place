@@ -1,0 +1,22 @@
+#root {
+    background-color: rgb(244, 193, 127);
+    display: grid;
+    grid-template-rows: 15% 70% 15%;
+   
+    grid-template-areas:    
+        "nav nav"
+        "section section"
+        "footer footer"
+}
+
+.nav{
+    background-color: rgb(241, 154, 122);
+}
+
+.section{
+    background-color: rgb(48, 117, 117);
+}
+
+.footer{
+    background-color: rgb(172, 105, 235);
+}

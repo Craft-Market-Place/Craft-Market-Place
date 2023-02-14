@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "bootstrap": "^5.2.3",
+    "json-server": "^0.17.1",
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.1",
     "react-dom": "^18.2.0",
@@ -19,6 +20,19 @@
     "@types/react": "^18.0.27",
     "@types/react-dom": "^18.0.10",
     "@vitejs/plugin-react-swc": "^3.0.0",
+    "axios": "^1.3.3",
     "vite": "^4.1.0"
-  }
+  },
+  "main": "vite.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Craft-Market-Place/Craft-Market-Place.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Craft-Market-Place/Craft-Market-Place/issues"
+  },
+  "homepage": "https://github.com/Craft-Market-Place/Craft-Market-Place#readme",
+  "description": ""
 }
