@@ -17,7 +17,7 @@ export default Post;
 
 export const loaderPost = async ({ params }) => {
     const res = await fetch(
-        `http://localhost:3000/Alumnxs${params.id}`
+        `http://localhost:3000/Products/${params.id}`
     );
 
         if (!res.ok)

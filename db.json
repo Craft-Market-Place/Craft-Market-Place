@@ -1,29 +1,31 @@
 {
-  "Alumnxs": [
+  "Products": [
     {
       "id": 1,
-      "title": "Aldara",
-      "curso": "4",
-      "refuerzo": "Inglés"
+      "title": "T-shirt",
+      "size": "Medium",
+      "colour": "White"
+      
     },
     {
       "id": 2,
-      "title": "Alicia",
-      "curso": "1",
-      "refuerzo": "Matemáticas"
+      "title": "Trousers",
+      "size": "44",
+      "colour": "Black"
     },
     {
       "id": 3,
-      "title": "Alma",
-      "curso": "2",
-      "refuerzo": "Lengua"
+      "title": "Shirt",
+      "size": "Small",
+      "colour": "Green"
     },
     {
       "id": 4,
-      "title": "Almudena",
-      "curso": "3",
-      "refuerzo": "Historia"
+      "title": "Shoes",
+      "size": "38",
+      "colour": "Brown"
     }
     
   ]
 }
+

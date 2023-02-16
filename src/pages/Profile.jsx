@@ -9,7 +9,7 @@ const Profile = () => {
                 posts.map((profile) => (
                   <li key={profile.id}>
                     <Link to={`/profile/${profile.id}`}>
-                        {profile.id} - {profile.title} 
+                        {profile.id} - {profile.title} - {profile.size} - {profile.colour} 
                     </Link>
                   </li>  
                 ))
@@ -22,7 +22,7 @@ const Profile = () => {
  export default Profile;
 
  export const loaderProfile = async () => {
-    const res = await fetch(' http://localhost:3000/Alumnxs')
+    const res = await fetch('http://localhost:3000/Products')
    
     if (!res.ok)
             throw {
