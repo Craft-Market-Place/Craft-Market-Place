@@ -1,12 +1,12 @@
 import { Link, useLoaderData } from 'react-router-dom'
 
 const Profile = () => { 
-    const {products} = useLoaderData();
+    const {posts} = useLoaderData();
 
     return (
         <ul>
-            {products.length > 0 ? (
-                products.map((profile) => (
+            {posts.length > 0 ? (
+                posts.map((profile) => (
                   <li key={profile.id}>
                     <Link to={`/profile/${profile.id}`}>
                         {profile.id} - {profile.title} 
@@ -22,7 +22,7 @@ const Profile = () => {
  export default Profile;
 
  export const loaderProfile = async () => {
-    const res = await fetch('https://jsonplaceholder.typicode.com/posts')
+    const res = await fetch(' http://localhost:3000/Alumnxs')
    
     if (!res.ok)
             throw {
@@ -30,7 +30,7 @@ const Profile = () => {
                 statusText: "No encontrado",
             };
    
-    const products = await res.json() 
+    const posts = await res.json() 
 
-    return { products };
+    return { posts };
  };

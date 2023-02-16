@@ -4,12 +4,12 @@ import LayoutPublic from "../layout/LayoutPublic";
 
 import Home from '../pages/Home';
 import Login from '../pages/Login';
-import Profile, { loaderProfile} from '../pages/Profile';
-import Product,  { loaderProduct  }  from '../pages/Product';
+import Profile, { loaderProfile } from '../pages/Profile';
+import Post,  { loaderPost  }  from '../pages/Post';
 import NotFound from "../pages/NotFound";
 
 export const router = createBrowserRouter([
-    {
+    { 
         path: '/',
         element: <LayoutPublic />,
         errorElement: <NotFound />, 
@@ -32,8 +32,8 @@ export const router = createBrowserRouter([
                     },    
                     {
                         path: '/profile/:id',
-                        element: <Product />,
-                        loader: loaderProduct
+                        element: <Post />,
+                        loader: loaderPost
                     }, 
                 ]
             },

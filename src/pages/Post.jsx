@@ -1,24 +1,23 @@
 import { useLoaderData } from 'react-router-dom'
 
-const Product = () => {
-    const { Product } = useLoaderData()
+const Post = () => {
+    const { post } = useLoaderData()
 
     return (
         <>
             <h1>
-                {Product.id} - {Product.title}
+                {post.id} - {post.title}
             </h1>
-            <p>{Product.body}</p>
+            <p>{post.body}</p>
         </>
     );
 };
 
-export default Product;
+export default Post;
 
-export const loaderProduct = async ({ params }) => {
+export const loaderPost = async ({ params }) => {
     const res = await fetch(
-        `https://jsonplaceholder.typicode.com/posts/${params.id}`
-        
+        `http://localhost:3000/Alumnxs${params.id}`
     );
 
         if (!res.ok)

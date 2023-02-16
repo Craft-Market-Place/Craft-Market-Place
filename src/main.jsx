@@ -5,9 +5,12 @@ import './index.css'
 
 import {router} from './router'
 import { RouterProvider } from 'react-router-dom'
+import DataProvider from './components/Context/DataContext'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
+   <DataProvider> 
     <RouterProvider router={router}/>
+   </DataProvider> 
   </React.StrictMode>,
 )
