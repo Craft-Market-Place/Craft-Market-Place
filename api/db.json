@@ -2,30 +2,85 @@
   "Products": [
     {
       "id": 1,
-      "title": "T-shirt",
-      "size": "Medium",
-      "colour": "White"
+      "title": "Blanket",
+      "price": "40€",
+      "material": "",
+      "body": "",
+      "img":""
       
     },
     {
       "id": 2,
-      "title": "Trousers",
-      "size": "44",
-      "colour": "Black"
+      "title": "Set of 3 cushion covers",
+      "price": "25€",
+      "material": "",
+      "body": "",
+      "img":""
     },
     {
       "id": 3,
-      "title": "Shirt",
-      "size": "Small",
-      "colour": "Green"
+      "title": "Doll",
+      "price": "10€",
+      "material": "",
+      "body": "",
+      "img":""
     },
     {
       "id": 4,
-      "title": "Shoes",
-      "size": "38",
-      "colour": "Brown"
+      "title": "Dress",
+      "price": "30€",
+      "material": "",
+      "body": "",
+      "img":""
+    },
+    {
+      "id": 5,
+      "title": "Vest",
+      "price": "15€",
+      "material": "",
+      "body": "",
+      "img":""
+    },
+    {
+      "id": 6,
+      "title": "Bag",
+      "price": "5€",
+      "material": "",
+      "body": "",
+      "img":""
+    },
+    {
+      "id": 7,
+      "title": "Teddy Bear",
+      "price": "10€",
+      "material": "",
+      "body": "",
+      "img":""
+    },
+    {
+      "id": 8,
+      "title": "Necklace",
+      "price": "15",
+      "material": "",
+      "body": "",
+      "img":""
+    },
+    {
+      "id": 9,
+      "title": "Scarf",
+      "price": "10€",
+      "material": "",
+      "body": "",
+      "img":""
+    },
+    {
+      "id": 10,
+      "title": "Flamenco dress",
+      "price": "100€",
+      "material": "",
+      "body": "",
+      "img":""
     }
-    
   ]
 }
 

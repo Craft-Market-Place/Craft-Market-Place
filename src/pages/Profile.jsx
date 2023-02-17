@@ -9,7 +9,7 @@ const Profile = () => {
                 posts.map((profile) => (
                   <li key={profile.id}>
                     <Link to={`/profile/${profile.id}`}>
-                        {profile.id} - {profile.title} - {profile.size} - {profile.colour} 
+                        {profile.id} - {profile.title} - {profile.price} - {profile.material} - {profile.img} 
                     </Link>
                   </li>  
                 ))
