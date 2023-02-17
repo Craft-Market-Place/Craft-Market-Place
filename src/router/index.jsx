@@ -1,12 +1,11 @@
 import { createBrowserRouter } from "react-router-dom";
-
 import LayoutPublic from "../layout/LayoutPublic";
-
 import Home from '../pages/Home';
-import Login from '../pages/Login';
+import Login from '../pages/DashBoard';
 import Profile, { loaderProfile } from '../pages/Profile';
 import Post,  { loaderPost  }  from '../pages/Post';
 import NotFound from "../pages/NotFound";
+import Aboutcraft from "../pages/Aboutcraft";
 
 export const router = createBrowserRouter([
     { 
@@ -35,9 +34,16 @@ export const router = createBrowserRouter([
                         element: <Post />,
                         loader: loaderPost
                     }, 
+                    {
+                        path: '/aboutcraft',
+                        element: <Aboutcraft />,
+                        
+                    }, 
                 ]
             },
          
         ]
     },   
 ]);
+
+

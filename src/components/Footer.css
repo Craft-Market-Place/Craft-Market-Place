@@ -1,0 +1,13 @@
+.footer {
+    position: sticky;
+    z-index: 3;
+    top: 0;
+}
+.footer-right{
+    display: flex;
+    justify-content: space-around;
+    background-color: #F0CF84;
+    font-family: pitch, courier new, Courier, lucida sans typewriter, lucida typewriter, monospace;
+   
+
+}

@@ -1,0 +1,22 @@
+.Imagenes {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.imagen-muñeca {
+    width: 180px;
+    bottom: '20px';
+}
+
+.imagen-manta {
+    width: 180px;
+    bottom: '20px';
+
+}
+
+.imagen-cogín {
+    width: 180px;
+    bottom: '20px';
+
+}
