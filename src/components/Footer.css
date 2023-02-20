@@ -1,0 +1,18 @@
+
+.footer-container{
+    height: 8vh;
+    display: flex;
+    justify-content: space-around;
+    background-color: #F0CF84;
+    font-family: pitch, courier new, Courier, lucida sans typewriter, lucida typewriter, monospace;
+    color: rgba(148, 85, 58, 0.87);   
+}
+h5{
+    margin-top: 1.25rem;
+
+}
+.footer-About{
+    margin-top: 1.25rem;
+    color: rgba(148, 85, 58, 0.87); 
+
+}
