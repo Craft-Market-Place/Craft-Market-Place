@@ -1,22 +1,37 @@
-.Imagenes {
+.About {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;   
+}
+
+.images {
     display: flex;
     justify-content: space-around;
+}
+
+.image-doll {
+    width: 15.625rem;
+   
+    border-radius: 30%;
+}
+
+.image-blanket {
+    width: 15.625rem;
+    border-radius: 30%;
 
 }
 
-.imagen-muñeca {
-    width: 180px;
-    bottom: '20px';
+.image-cogin {
+    width: 15.625rem;
+   
+    border-radius: 30%;
+   
 }
 
-.imagen-manta {
-    width: 180px;
-    bottom: '20px';
-
+h2 {
+    text-align: center;
 }
 
-.imagen-cogín {
-    width: 180px;
-    bottom: '20px';
-
+h3 {
+    text-align: center;
 }

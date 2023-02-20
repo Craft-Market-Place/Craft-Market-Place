@@ -8,8 +8,8 @@ const Navbar = () => {
             <div className="navbar">
                 <img className="logo-Craft" src={Logo} alt="LogoCraft"></img>
                 <NavLink to="/" className="navbar-home">Home</NavLink>
-                <NavLink to="/login" className="navbar-DashBoard">DashBoard</NavLink>
-                <NavLink to="/profile" className="navbar-Products">Products</NavLink>
+                <NavLink to="/login" className="navbar-Products">Upload Products</NavLink>
+                <NavLink to="/profile" className="navbar-DashBoard">DashBoard</NavLink>
                 <h1 className="navbar-Cart"> 🛒</h1>
             
             </div>

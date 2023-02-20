@@ -1,40 +1,22 @@
-.nav-container {
-    position: sticky;
-    z-index: 3;
-    top: 0;
-  }
+
   .navbar {
     display: flex;
     justify-content: space-around;
-    height: 15vh;
+    height: 12vh;
     background-color: #F0CF84;
-     
+    color: rgba(148, 85, 58, 0.87);
+    font-size: 1.600rem;
+       
   }
 
   .logo-Craft{
-    width: 130px;
-    bottom: '20px';
-
-  }
-  .navbar-home{
-    color: rgba(148, 85, 58, 0.87);
-    font-size: 1.600rem;
+    width: 8.625rem;
    
-    border-color: black;
-
+      
   }
-  .navbar-DashBoard{
-    color: rgba(148, 85, 58, 0.87);
-    font-size: 1.600rem;
-
-  }
-  .navbar-Products{
-    color: rgba(148, 85, 58, 0.87);
-    font-size: 1.600rem;
-
-  }
+ 
   .navbar-Cart{
     background-color: #8b593d;
     border-radius: 80%;
-    height: 50px;
+    height: 3.125rem;
   }
