@@ -1,8 +1,8 @@
 import { createBrowserRouter } from "react-router-dom";
 import LayoutPublic from "../layout/LayoutPublic";
 import Home from '../pages/Home';
-import Login from '../pages/Uploadproduct';
-import Profile, { loaderProfile } from '../pages/DashBoard';
+import Login from '../pages/Login';
+import Profile, { loaderProfile } from '../pages/Profile';
 import Post,  { loaderPost  }  from '../pages/Post';
 import NotFound from "../pages/NotFound";
 import Aboutcraft from "../pages/Aboutcraft";
