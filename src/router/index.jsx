@@ -6,6 +6,7 @@ import Login from '../pages/Login';
 import Profile from '../pages/Profile';
 import Post from '../pages/Post';
 import NotFound from "../pages/NotFound";
+import Aboutcraft from "../pages/Aboutcraft";
 
 export const router = createBrowserRouter([
     { 
@@ -33,6 +34,11 @@ export const router = createBrowserRouter([
                         path: '/profile/:id',
                         element: <Post />,
                         loader: loaderPost
+                    }, 
+                    {
+                        path: '/aboutcraft',
+                        element: <Aboutcraft />,
+                        
                     }, 
                 ]
             },

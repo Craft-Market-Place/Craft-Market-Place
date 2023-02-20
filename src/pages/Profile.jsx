@@ -4,7 +4,7 @@ const Profile = () => {
     const {posts} = useLoaderData();
 
     return (
-        <ul>
+        <ul className="Products">
             {posts.length > 0 ? (
                 posts.map((profile) => (
                   <li key={profile.id}>
