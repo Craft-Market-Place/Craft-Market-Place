@@ -2,8 +2,8 @@ import { createBrowserRouter } from "react-router-dom";
 import { productHandler } from "../handlers/productHandler";
 import LayoutPublic from "../layout/LayoutPublic";
 import Home from '../pages/Home';
-import Login from '../pages/Login';
-import Profile from '../pages/Profile';
+
+import Profile from '../pages/';
 import Post from '../pages/Post';
 import NotFound from "../pages/NotFound";
 import Aboutcraft from "../pages/Aboutcraft";
