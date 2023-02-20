@@ -1,9 +1,10 @@
 import { createBrowserRouter } from "react-router-dom";
+import { productHandler } from "../handlers/productHandler";
 import LayoutPublic from "../layout/LayoutPublic";
 import Home from '../pages/Home';
 import Login from '../pages/Login';
-import Profile, { loaderProfile } from '../pages/Profile';
-import Post,  { loaderPost  }  from '../pages/Post';
+import Profile from '../pages/Profile';
+import Post from '../pages/Post';
 import NotFound from "../pages/NotFound";
 import Aboutcraft from "../pages/Aboutcraft";
 
@@ -46,4 +47,13 @@ export const router = createBrowserRouter([
     },   
 ]);
 
+async function loaderPost  ({ params })  {
+    const post = await productHandler.loadProduct(params.id)  
+    return { post };
+};
 
+async function loaderProfile () {
+ const posts = await productHandler.loadProducts()
+    console.log (posts)
+    return { posts };
+ };

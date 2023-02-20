@@ -15,17 +15,17 @@ const Post = () => {
 
 export default Post;
 
-export const loaderPost = async ({ params }) => {
-    const res = await fetch(
-        `http://localhost:3000/Products/${params.id}`
-    );
+// export const loaderPost = async ({ params }) => {
+//     const res = await fetch(
+//         `http://localhost:3000/Products/${params.id}`
+//     );
 
-        if (!res.ok)
-            throw {
-                status: res.status,
-                statusText: "No encontrado",
-            };
+//         if (!res.ok)
+//             throw {
+//                 status: res.status,
+//                 statusText: "No encontrado",
+//             };
 
-    const post = await res.json();
-    return { post };
-};
+//     const post = await res.json();
+//     return { post };
+// };

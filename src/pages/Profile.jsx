@@ -2,6 +2,7 @@ import { Link, useLoaderData } from 'react-router-dom'
 
 const Profile = () => { 
     const {posts} = useLoaderData();
+    console.log (posts)
 
     return (
         
@@ -22,16 +23,16 @@ const Profile = () => {
  };
  export default Profile;
 
- export const loaderProfile = async () => {
-    const res = await fetch('http://localhost:3000/Products')
+//  export const loaderProfile = async () => {
+//     const res = await fetch('http://localhost:3000/Products')
    
-    if (!res.ok)
-            throw {
-                status: res.status,
-                statusText: "No encontrado",
-            };
+//     if (!res.ok)
+//             throw {
+//                 status: res.status,
+//                 statusText: "No encontrado",
+//             };
    
-    const posts = await res.json() 
+//     const posts = await res.json() 
 
-    return { posts };
- };
+//     return { posts };
+//  };
