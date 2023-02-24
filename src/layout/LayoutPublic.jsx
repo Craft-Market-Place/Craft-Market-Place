@@ -17,7 +17,7 @@ const LayoutPublic = () => {
             <Navbar />
 
            
-           <main className="container">
+           <main className="Cuerpo">
            
             {navigation.state === "loading" && (
                 <div className="alert alert-info my-S">Loading...</div>
@@ -26,6 +26,7 @@ const LayoutPublic = () => {
             </main> 
            
              <Footer/>
+             
                  
         </>
     );
