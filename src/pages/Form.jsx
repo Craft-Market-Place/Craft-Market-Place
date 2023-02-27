@@ -62,8 +62,8 @@ const CreateProduct = () => {
     
   </div>
   <div className="mb-3">
-    <label htmlFor="time" className="form-label">Tiempo</label>
-    <input name="time" type="text" className="form-control" placeholder="¿Cuánto tiempo...?" onChange={handleTimeChange} required/>
+    <label htmlFor="price" className="form-label">Tiempo</label>
+    <input name="price" type="text" className="form-control" placeholder="¿Cuánto tiempo...?" onChange={handleTimeChange} required/>
   </div>
 
   <div className="mb-3">

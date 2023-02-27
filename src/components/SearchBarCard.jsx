@@ -20,15 +20,15 @@ function Cards() {
   const handleSearchChange = (event) => {
     setSearchQuery(event.target.value);
   };
-  const handleFavorite = (id) => {
-    const newProducts = products.map((product) => {
-      if (product.id === id) {
-        return { ...product, isFavorite: !product.isFavorite };
-      }
-      return product;
-    });
-    setProducts(newProducts);
-  };
+  // const handleFavorite = (id) => {
+  //   const newProducts = products.map((product) => {
+  //     if (product.id === id) {
+  //       return { ...product, isFavorite: !product.isFavorite };
+  //     }
+  //     return product;
+  //   });
+  //   setProducts(newProducts);
+  // };
 
   return (
     <>
@@ -36,7 +36,7 @@ function Cards() {
         <input
           className="searchStyle"
           type="text"
-          placeholder="Busqueda Meraky"
+          placeholder="Search product"
           value={searchQuery}
           onChange={handleSearchChange}
         />
@@ -50,15 +50,8 @@ function Cards() {
                 <Card.Title>{product.title}</Card.Title>
                 <Card.Text>{product.location}</Card.Text>
                 <Link to={`/advertisement/${product.id}`}>
-                  <Button className="btn-ad">Quiero saber más</Button>
+                  <Button className="btn-ad">More information</Button>
                 </Link>
-                {/* <Button
-                  className="btn-favorite"
-                  variant="link"
-                  onClick={() => handleFavorite(product.id)}
-                >
-                  {product.isFavorite ? <FaHeart /> : <FaRegHeart />}
-                </Button> */}
               </Card.Body>
             </div>
           );

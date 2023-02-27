@@ -15,7 +15,7 @@ return (
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="" >
-                <NavLink to="/form" className="navbar-Products"><p style={{lineHeight: 1}}>Ofrece un servicio</p></NavLink>
+                <NavLink to="/form" className="navbar-Products"><p style={{lineHeight: 1}}>Vende un producto</p></NavLink>
                 <NavLink to="/advertisement" className="navbar-DashBoard"><p>Anuncios</p></NavLink>
         </Nav>
         </Navbar.Collapse>
