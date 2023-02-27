@@ -28,7 +28,19 @@ export const productHandler = {
     deleteProduct(id){
         return productService.deleteProduct(id);
     },
-    updateProduct(newProduct){
-        // pending to be completed
+    updateProduct(id, updatedProduct){
+        if (!updatedProduct) {
+            return;
+        }
+        let updatedProductStructure = {
+            "title": updatedProduct.title,
+            "price": updatedProduct.price,
+            "material": updatedProduct.material,
+            "body": updatedProduct.body,
+            "img": updatedProduct.img,
+        }
+
+        return productService.updateProduct(id, updatedProductStructure);
     }
-}
+    }
+

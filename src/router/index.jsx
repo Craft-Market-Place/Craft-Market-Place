@@ -7,6 +7,7 @@ import Profile from '../pages/Profile';
 import Post from '../pages/Post';
 import NotFound from "../pages/NotFound";
 import Aboutcraft from "../pages/Aboutcraft";
+import EditProduct from "../pages/EditProduct";
 
 export const router = createBrowserRouter([
     { 
@@ -40,6 +41,11 @@ export const router = createBrowserRouter([
                         element: <Aboutcraft />,
                         
                     }, 
+                    {
+                        path: "editProduct/:id",
+                        element: <EditProduct />,
+                        loader: loaderPost
+                    },
                 ]
             },
          
