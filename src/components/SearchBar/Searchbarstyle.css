@@ -1,0 +1,57 @@
+/* .searContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 7vh;
+  color: black;
+  margin-top: 10px;
+ 
+} */
+
+/* .searchBarStyle {
+  width: 100%;
+} */
+/* 
+.listSearchBar {
+  text-decoration: none;
+  list-style: none;
+} */
+
+/* .linkStyleSearchBar {
+  color: black;
+  text-decoration: none;
+} */
+/* .linkStyleSearchBar:hover {
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+} */
+
+.searchStyle {
+  background: #CBDAD5;
+
+  border-radius: 20px;
+  border: 0;
+  width: 50vw;
+  color: black;
+  padding: 7px;
+  position: sticky;
+  top: 0;
+}
+
+p {
+  margin-left: 5%;
+  line-height: 40%;
+  margin-top: 5%;
+}
+
+/* .result-search{
+  background-color: #89A7B1;
+  position: absolute;
+  z-index: 1;
+  width: 50vw;
+} */
+
+.container-bar{
+display: flex;
+justify-content: center;}

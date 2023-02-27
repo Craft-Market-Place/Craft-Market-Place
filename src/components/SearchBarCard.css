@@ -1,0 +1,6 @@
+.card:hover {
+    opacity: 0.8;
+    cursor: pointer;
+    transform: scale(1.1);
+    box-shadow: 0 10 10px rgba(240, 241, 243, 0.3);
+  }

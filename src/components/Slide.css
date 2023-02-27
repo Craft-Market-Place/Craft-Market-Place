@@ -1,0 +1,16 @@
+.slide{
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 414px) {
+    .slide{
+        margin-top: 5vh;
+    }
+  }
+
+  @media (max-width: 375px) {
+    .slide{
+        margin-top: 5vh;
+    }
+  }

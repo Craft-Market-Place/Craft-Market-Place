@@ -1,86 +1,93 @@
 {
-  "Products": [
+  "products": [
     {
       "id": 1,
-      "title": "Blanket",
-      "price": "40€",
-      "material": "",
-      "body": "",
-      "img":""
-      
+      "title": "Paseo de perros",
+      "time": "30 minutos",
+      "description": "Soy una amante de los perros y tengo una amplia experiencia en el cuidado de animales. Si tu perro necesita salir más pero no tienes tiempo, yo puedo encargarme de él y que tu perro se sienta cómodo, seguro y feliz durante su paseo.",
+      "user": "Celia Cueria",
+      "location": "Gijón",
+      "img": "https://images.pexels.com/photos/3628100/pexels-photo-3628100.jpeg?auto=compress&cs=tinysrgb&w=400"
     },
     {
       "id": 2,
-      "title": "Set of 3 cushion covers",
-      "price": "25€",
-      "material": "",
-      "body": "",
-      "img":""
+      "title": "Masterclass de React",
+      "time": "Sesiones de 1 hora",
+      "description": "Soy una desarrolladora con experiencia en React y he trabajado en varios proyectos exitosos en el pasado. Ahora, quiero compartir mis conocimientos contigo para ayudarte a alcanzar tus objetivos profesionales.Estoy disponible los sábados y los domingos por la tarde",
+      "user": "Bianca Giudici",
+      "location": "Barcelona",
+      "img": "https://images.pexels.com/photos/4164418/pexels-photo-4164418.jpeg?auto=compress&cs=tinysrgb&w=400"
     },
     {
       "id": 3,
-      "title": "Doll",
-      "price": "10€",
-      "material": "",
-      "body": "",
-      "img":""
+      "title": "Cuido casas",
+      "time": "30 minutos",
+      "description": "¿Te vas de vacaciones y te preocupa dejar tu casa sola por un largo tiempo? ¡Deja que yo me encargue de cuidar de tu hogar mientras estás fuera! Además de cuidar de tu casa, también puedo proporcionar servicios adicionales como el cuidado de mascotas, el riego de plantas o la recolección de correo. Todo ello para asegurarnos de que tu hogar esté en perfectas condiciones para tu regreso.",
+      "user": "Rocio Leiva",
+      "location": "Alicante",
+      "img": "https://images.pexels.com/photos/1029599/pexels-photo-1029599.jpeg?auto=compress&cs=tinysrgb&w=400"
     },
     {
       "id": 4,
-      "title": "Dress",
-      "price": "30€",
-      "material": "",
-      "body": "",
-      "img":""
+      "title": "¿Buscas un logo creativo?",
+      "time": "Según demanda",
+      "description": "¿Estás buscando un logo profesional y atractivo para tu empresa o proyecto personal? ¡Déjame ayudarte a crear el diseño perfecto para ti! Contáctame para discutir tus necesidades de diseño y comenzar a trabajar juntos en tu logo perfecto. ¡No esperes más para hacer que tu negocio o proyecto se destaque con un logo único y profesional!",
+      "user": "Noelia Rilova",
+      "location": "Oviedo",
+      "img": "https://images.pexels.com/photos/256514/pexels-photo-256514.jpeg?auto=compress&cs=tinysrgb&w=400"
     },
     {
       "id": 5,
-      "title": "Vest",
-      "price": "15€",
-      "material": "",
-      "body": "",
-      "img":""
+      "title": "Conversación en alemán",
+      "time": "1 hora",
+      "description": "¿Quieres mejorar tu habilidad en alemán y tener una conversación fluida y natural? Déjame ayudarte a practicar y mejorar tu nivel de alemán. Ofrezco servicios de conversación personalizados, adaptados a tus necesidades y objetivos de aprendizaje. Soy un hablante nativo de alemán y tengo una amplia experiencia en la enseñanza del idioma a estudiantes de todos los niveles.",
+      "user": "Mónica Raña",
+      "location": "Online",
+      "img": "https://images.pexels.com/photos/4458421/pexels-photo-4458421.jpeg?auto=compress&cs=tinysrgb&w=400"
     },
     {
       "id": 6,
-      "title": "Bag",
-      "price": "5€",
-      "material": "",
-      "body": "",
-      "img":""
+      "title": "Clases de inglés",
+      "time": "Sesiones de 1 hora",
+      "description": "¿Quieres mejorar tus habilidades en inglés y hablar con fluidez? No busques más, ¡aquí estoy para ayudarte! Ya sea que necesites mejorar tu inglés para viajar, estudiar o trabajar, ¡estoy aquí para ayudarte a alcanzar tus metas! Contáctame para programar tu primera clase y comenzar a hablar inglés con confianza. ¡No esperes más para mejorar tu habilidad en inglés!",
+      "user": "Nasreddin Oufallah",
+      "location": "Madrid / Online",
+      "img": "https://images.pexels.com/photos/301926/pexels-photo-301926.jpeg?auto=compress&cs=tinysrgb&w=400"
     },
     {
       "id": 7,
-      "title": "Teddy Bear",
-      "price": "10€",
-      "material": "",
-      "body": "",
-      "img":""
+      "title": "Doy clases de guitarra",
+      "time": "Sesiones de 90 minutos",
+      "description": "Soy un músico con amplia experiencia en tocar la guitarra y he trabajado en varios proyectos musicales en el pasado. Ahora, quiero compartir mis conocimientos contigo para ayudarte a alcanzar tus objetivos musicales.No importa si eres principiante o si ya tienes experiencia tocando la guitarra, mis clases están diseñadas para adaptarse a tus necesidades y nivel. Contáctame para programar tu primera clase y comenzar a tocar la guitarra como siempre has querido. ¡Te espero!",
+      "user": "Andrés Pérez",
+      "location": "Málaga",
+      "img": "https://images.pexels.com/photos/1407322/pexels-photo-1407322.jpeg?auto=compress&cs=tinysrgb&w=400"
     },
     {
       "id": 8,
-      "title": "Necklace",
-      "price": "15",
-      "material": "",
-      "body": "",
-      "img":""
+      "title": "Cocina a domicilio",
+      "time": "Según demanda",
+      "description": "¿Estás cansado de cocinar después de un largo día de trabajo? Deja que yo me encargue de cocinar para ti con mi servicio de cocina a domicilio. Ofrezco una amplia variedad de comidas caseras y saludables, elaboradas con ingredientes frescos y de alta calidad. Desde platos tradicionales hasta opciones vegetarianas o sin gluten, puedo personalizar el menú de acuerdo a tus gustos y necesidades.",
+      "user": "Mario Valdés",
+      "location": "Teruel",
+      "img": "https://images.pexels.com/photos/2284166/pexels-photo-2284166.jpeg?auto=compress&cs=tinysrgb&w=400"
     },
     {
       "id": 9,
-      "title": "Scarf",
-      "price": "10€",
-      "material": "",
-      "body": "",
-      "img":""
+      "title": "Acompañamiento a personas mayores",
+      "time": "Según tarea",
+      "description": "¿Estás buscando una compañía y ayuda para tus seres queridos mayores? Déjame ser su compañero y proporcionarles la ayuda y el apoyo que necesitan. Ofrezco servicios de acompañamiento personalizados para personas mayores que necesitan asistencia en sus actividades cotidianas, como hacer las compras, ir al médico, pasear o simplemente tener una conversación amigable.",
+      "user": "Adriana Aguilar",
+      "location": "Jaen",
+      "img": "https://images.pexels.com/photos/3768114/pexels-photo-3768114.jpeg?auto=compress&cs=tinysrgb&w=400"
     },
     {
       "id": 10,
-      "title": "Flamenco dress",
-      "price": "100€",
-      "material": "",
-      "body": "",
-      "img":""
+      "title": "fd",
+      "price": "dv",
+      "user": "fgdf",
+      "location": "dfg",
+      "img": "df"
     }
   ]
 }
-

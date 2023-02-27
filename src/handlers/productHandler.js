@@ -7,18 +7,19 @@ export const productHandler = {
         }
 
         let newProductStructure = { 
-            "id": 1,
+            "id": "",
             "title": newProduct.title,
-            "description": newProduct.description,
-            "price": newProduct.price,
-            "material": newProduct.material,
+            "price": newProduct.time,
             "body": newProduct.body,
+            "user": newProduct.user,
+            "location": newProduct.location,
              "img": newProduct.img,
         }
 
         return productService.submitProduct(newProductStructure);
         
     },
+
     loadProducts(){
         return productService.getProducts();
     },
@@ -29,6 +30,20 @@ export const productHandler = {
         return productService.deleteProduct(id);
     },
     updateProduct(newProduct){
-        // pending to be completed
+        if(!newProduct){
+            return;
+        }
+        let newProductModel = {
+            "title": newProduct.name,
+            "price": newProduct.time,
+            "body": newProduct.body,
+            "user": newProduct.user,
+            "location": newProduct.location,
+           "img" : newProduct.img,
+        }
+        let id = newProductModel.id;
+
+        return taskService.updateTask(id, newProductModel);
     }
 }
+
