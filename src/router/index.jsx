@@ -2,12 +2,22 @@ import { createBrowserRouter } from "react-router-dom";
 import { productHandler } from "../handlers/productHandler";
 import LayoutPublic from "../layout/LayoutPublic";
 import Home from '../pages/Home';
-import Login from '../pages/Login';
-import Profile from '../pages/Profile';
+import Form from '../pages/Form';
+import Advertisement from '../pages/Advertisement';
 import Post from '../pages/Post';
 import NotFound from "../pages/NotFound";
+<<<<<<< HEAD
 import Aboutcraft from "../pages/Aboutcraft";
 import EditProduct from "../pages/EditProduct";
+=======
+import Searchbar from "../components/SearchBar/Searchbar"
+import EditService from "../pages/EditProduct";
+import Cookies from "../pages/Cookies";
+import Warning from "../pages/Warning";
+// import Navbar from "../components/Navbar";
+// import Cards from "../components/Card";
+
+>>>>>>> deploy
 
 export const router = createBrowserRouter([
     { 
@@ -20,32 +30,51 @@ export const router = createBrowserRouter([
                 children: [
                     {
                         index: true,
-                        element: <Home />, 
+                        element:<Home />, 
+                        loader: loaderAdvertisement,
                     },
                     {
-                        path: '/login',
-                        element: <Login />,
+                        path: '/form',
+                        element: <Form />,
                     },
                     {
-                        path: '/profile',
-                        element: <Profile />,
-                        loader: loaderProfile,
+                        path: '/advertisement',
+                        element: <Advertisement />,
+                        loader: loaderAdvertisement,
                     },    
                     {
-                        path: '/profile/:id',
+                        path: '/advertisement/:id',
                         element: <Post />,
                         loader: loaderPost
                     }, 
                     {
-                        path: '/aboutcraft',
-                        element: <Aboutcraft />,
-                        
+                        path: '/searchbar',
+                        element: <Searchbar />,
+                        loader: loaderPost
                     }, 
                     {
+<<<<<<< HEAD
                         path: "editProduct/:id",
                         element: <EditProduct />,
                         loader: loaderPost
                     },
+=======
+                        path: '/editadvertisement/:id',
+                        element: <EditService />,
+                        loader: loaderPost
+                    }, 
+                    
+                    {
+                        path: '/cookies',
+                        element: <Cookies />,
+                    }
+                    , 
+                    
+                    {
+                        path: '/warning',
+                        element: <Warning />,
+                    }
+>>>>>>> deploy
                 ]
             },
          
@@ -58,8 +87,9 @@ async function loaderPost  ({ params })  {
     return { post };
 };
 
-async function loaderProfile () {
+async function loaderAdvertisement () {
  const posts = await productHandler.loadProducts()
     console.log (posts)
     return { posts };
  };
+

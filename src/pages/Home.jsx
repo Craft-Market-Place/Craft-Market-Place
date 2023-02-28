@@ -1,4 +1,5 @@
 import "./Home.css"
+<<<<<<< HEAD
 import product1 from '../../public/hecho a mano.jpg'
 import product2 from '../../public/hecho a mano 2.jpg'
 import product3 from '../../public/ropa.jpg'
@@ -7,8 +8,17 @@ import product5 from '../../public/regalo.jpeg'
 import Carousel from 'react-bootstrap/Carousel'
 
 
+=======
+import Slide from '../components/Slide';
+// import Card from '../components/Card';
+import {  useLoaderData } from 'react-router-dom'
+import Trending from "../components/Trending";
+>>>>>>> deploy
 const Home = () => {
+    const {posts}  = useLoaderData();
+    
     return (
+<<<<<<< HEAD
         <div className='section-container'>
             <section className="bloque"> <div id="servicesAnchor"> <h1>Sale and purchase of
                 second-hand craft </h1> </div>
@@ -63,8 +73,22 @@ const Home = () => {
                     </div>
                 </div>
             </section>
+=======
+>>>>>>> deploy
 
-        </div>
+<>
+
+                <Slide/>
+                <h1 className="title">Últimos anuncios</h1>
+
+            <div className="anuncios">
+                <Trending posts={posts}/>
+            </div>
+         
+
+
+                </>
+
 
     )
 };

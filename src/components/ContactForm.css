@@ -1,0 +1,33 @@
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+textarea{
+    background-color: #ffffff;
+    width: 25vw;
+    color: white;
+    border-radius: 1vh;
+}
+
+.form-contact{
+    width: 50vw;
+    padding: 2vh;
+    margin-top: -2vh;
+}
+.titleContact{
+    color: #cbdad5;
+}
+
+#btn-ad{
+    background-color: #CBDAD5;
+    color: black;
+    border-style: none;
+}
+
+#btn-ad:hover{
+color: white;
+background-color: #566981;
+box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+}
+

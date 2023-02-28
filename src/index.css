@@ -1,4 +1,4 @@
-#root {
+/* #root {
     box-sizing: content-box;
    display: grid;
     font-family: pitch, courier new, Courier, lucida sans typewriter, lucida typewriter, monospace;
@@ -11,5 +11,10 @@
     grid-template-columns: auto;
     grid-template-rows: auto auto auto auto;
 
+<<<<<<< HEAD
 }
 
+=======
+
+} */
+>>>>>>> deploy

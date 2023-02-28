@@ -1,0 +1,31 @@
+.productCard {
+    width: 25rem;
+    height: 20rem;
+    margin: 1rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(242, 243, 233);
+    background-color: rgb(44, 43, 43);
+    font-size: 1.2rem;;
+}
+
+.productCard--info{
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.productCard--buttons{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.edit--link {
+    text-decoration: none;
+    color: inherit;
+}

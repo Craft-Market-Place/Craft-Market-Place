@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { useState } from "react";
 import { useLoaderData } from "react-router-dom";
 import { productHandler } from "../handlers/productHandler";
@@ -66,3 +67,16 @@ function EditProduct() {
 }
 
 export default EditProduct;
+=======
+import { useLoaderData } from "react-router-dom"
+
+function EditProduct() {
+    const { product } = useLoaderData();
+
+    return(
+        <h1>estás editandoo el product: {product.title}</h1>
+    )
+}
+
+export default EditProduct;
+>>>>>>> deploy

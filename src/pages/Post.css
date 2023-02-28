@@ -1,0 +1,48 @@
+#img-ad{
+    width: 50vw;
+    height: 50vh;
+    margin-top: 4vh;
+    margin-left: 4vw;
+    border-radius: 2vh;
+}
+#container-text{
+    margin-top: -12vh;
+}
+h1{
+    background-color: #566981;
+    color: #CBDAD5;
+}
+
+#logo-location{
+    margin-right: 2vh ;
+}
+
+.description{
+    margin-top: 3vh;
+    margin-left: 2vh;
+    text-align: justify;
+    margin-right: 2vh;
+}
+
+
+.user{
+    margin-top: 3vh;
+    margin-left: 2vh;
+
+}
+
+.title-ad{
+    margin-top: 14.8vh;
+    border-radius: 1vh;
+    padding-left: 1.5vh;
+}
+
+#div-post{
+    
+    background-color:#89a7b13f;
+
+}
+
+.time{
+    margin-right: 2vh;
+}

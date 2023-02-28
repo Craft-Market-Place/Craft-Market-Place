@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .section-container {
     height: 80vh;
     width: 100vw;
@@ -37,4 +38,18 @@ carousel slide .img-fluid {
 
 }
 
+=======
+.title{
+    margin-top: 1.4vh;
+    color: #CBDAD5;
+}
 
+.anuncios{
+    background-color: #89A7B1;
+
+}
+>>>>>>> deploy
+
+p{
+    line-height: 3vh;
+}

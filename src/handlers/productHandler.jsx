@@ -7,18 +7,19 @@ export const productHandler = {
         }
 
         let newProductStructure = { 
-            "id": 1,
+            "id": "",
             "title": newProduct.title,
-            "description": newProduct.description,
-            "price": newProduct.price,
-            "material": newProduct.material,
+            "price": newProduct.time,
             "body": newProduct.body,
+            "user": newProduct.user,
+            "location": newProduct.location,
              "img": newProduct.img,
         }
 
         return productService.submitProduct(newProductStructure);
         
     },
+
     loadProducts(){
         return productService.getProducts();
     },
@@ -28,6 +29,7 @@ export const productHandler = {
     deleteProduct(id){
         return productService.deleteProduct(id);
     },
+<<<<<<< HEAD:src/handlers/productHandler.jsx
     updateProduct(id, updatedProduct){
         if (!updatedProduct) {
             return;
@@ -43,4 +45,23 @@ export const productHandler = {
         return productService.updateProduct(id, updatedProductStructure);
     }
     }
+=======
+    updateProduct(newProduct){
+        if(!newProduct){
+            return;
+        }
+        let newProductModel = {
+            "title": newProduct.name,
+            "price": newProduct.time,
+            "body": newProduct.body,
+            "user": newProduct.user,
+            "location": newProduct.location,
+           "img" : newProduct.img,
+        }
+        let id = newProductModel.id;
+
+        return taskService.updateTask(id, newProductModel);
+    }
+}
+>>>>>>> deploy:src/handlers/productHandler.js
 
