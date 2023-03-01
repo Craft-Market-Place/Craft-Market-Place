@@ -3,13 +3,18 @@
     
 }
 
-.menu{
-display: flex;
-justify-content: space-between;
-}
 .navigation{
-  
   background-color: #F0CF84 !important;
+  
+}
+
+.text-navbar{
+  color: #74522B !important;
+  margin-inline-start: .625rem;
+}
+/* .menu{
+  display: flex;
+  justify-content: space-between;
 }
 .navbar-DashBoard{
 margin-top: 1vw;
@@ -33,6 +38,6 @@ p{
 .navbar-Products:hover{
   color: red;
 
-}
+} */
 
 
