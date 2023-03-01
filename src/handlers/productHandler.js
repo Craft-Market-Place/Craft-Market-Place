@@ -10,7 +10,7 @@ export const productHandler = {
             "id": "",
             "title": newProduct.title,
             "price": newProduct.time,
-            "body": newProduct.body,
+            "description": newProduct.description,
             "user": newProduct.user,
             "location": newProduct.location,
              "img": newProduct.img,
@@ -29,21 +29,21 @@ export const productHandler = {
     deleteProduct(id){
         return productService.deleteProduct(id);
     },
-    updateProduct(newProduct){
-        if(!newProduct){
+    updateProduct(id, updatedProduct){
+        if(!updatedProduct){
             return;
         }
-        let newProductModel = {
-            "title": newProduct.name,
-            "price": newProduct.time,
-            "body": newProduct.body,
-            "user": newProduct.user,
-            "location": newProduct.location,
-           "img" : newProduct.img,
+        let updatedProductStructure = {
+            "title": updatedProduct.title,
+            "price": updatedProduct.time,
+            "description": updatedProduct.description,
+            "user": updatedProduct.user,
+            "location": updatedProduct.location,
+           "img" : updatedProduct.img,
         }
-        let id = newProductModel.id;
+       
 
-        return taskService.updateTask(id, newProductModel);
+        return productService.updateProduct(id, updatedProductStructure);
     }
 }
 

@@ -1,7 +1,7 @@
 import { useLoaderData } from "react-router-dom";
 import ContactForm from "../components/ContactForm";
 import Location from '../assets/location.png';
-import Time from '../assets/time.png';
+import Price from '../assets/price.jpg';
 import './Post.css';
 
 const Post = () => {
@@ -15,7 +15,7 @@ const Post = () => {
         <h1 className="title-ad">{post.title}</h1>
         <div className="ad-title d-flex justify-content-between">
           <h3><img src={Location} id="logo-location"/>{post.location}</h3>
-          <h5 className="time"><img src={Time} id="logo-location"/>{post.time}</h5>
+          <h5 className="price"><img src={Price} id="logo-location"/>{post.time}</h5>
           </div>
           <div>
           <h5 className="description">{post.description}</h5>

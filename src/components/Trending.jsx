@@ -1,13 +1,20 @@
 
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Button from 'react-bootstrap/Button';
+
 import Card from 'react-bootstrap/Card';
 import db from '../../api/db.json'
+
+
+
 import './Card.css';
 import {Link} from 'react-router-dom';
-function Trending({posts}) {
+
+function Trending({posts, deleteProduct}) {
   console.log(posts);
+  console.log(deleteProduct);
   
+    
     const randomIndex = Math.floor(Math.random() * (posts.length - 3)); 
     const resultTrending = posts.slice(randomIndex, randomIndex + 3); 
   
@@ -24,6 +31,12 @@ function Trending({posts}) {
                   {product.location}
                 </Card.Text>
                <Link to={`/advertisement/${product.id}`}><Button  className='btn-ad'>Quiero saber más</Button></Link>
+               <Link to={`editProduct/${product.id}`}><Button className="btn btn-outline-success me-2" id="btn-E">Edit</Button></Link>
+                {/* <Button onClick={() => deleteProduct(id)}>Delete</Button> 
+                 */}
+               <Button size="small" onClick={() =>deleteProduct(id)}>Delete</Button>
+               
+             
               </Card.Body>
             </div>
           )
