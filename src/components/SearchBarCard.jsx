@@ -8,8 +8,8 @@ import db from "../../api/db.json";
 //import { FaHeart, FaRegHeart } from "../../node_modules/react-icons/fa";
 import { Link } from "react-router-dom";
 
-function Cards() {
-  const [products, setProducts] = useState(db.products);
+function Cards({deleteProduct}) {
+  const [product] = useState(db.products);
   const [searchQuery, setSearchQuery] = useState("");
   const data = db.products.filter(
     (product) =>
@@ -52,6 +52,9 @@ function Cards() {
                 <Link to={`/advertisement/${product.id}`}>
                   <Button className="btn-ad">More information</Button>
                 </Link>
+                <Link to={`editProduct/${product.id}`}><Button className="btn-E">Edit</Button></Link>
+               <Button className="btn-D"onClick={() =>deleteProduct(id)}>Delete</Button>
+               
               </Card.Body>
             </div>
           );

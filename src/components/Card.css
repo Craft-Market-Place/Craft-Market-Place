@@ -21,11 +21,12 @@ margin-left: 15vh;
     color: black;
     border-style: none;
     
+    
 }
 
 .btn-ad:hover{
 color: white;
-background-color: #566981;
+background-color: #9243e7;
 }
 
 @media (max-width: 414px) {

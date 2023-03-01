@@ -7,7 +7,7 @@ function EditProduct() {
     const { post } = useLoaderData();
     const id = post.id;
     const [title, setTitle] = useState(post.title);
-    const [time, setTime] = useState(post.price);
+    const [price, setPrice] = useState(post.price);
     const [description, setDescription] = useState(post.description);
     const [user, setUser] = useState(post.user);
     const [location, setLocation] = useState(post.location);
@@ -19,7 +19,7 @@ function EditProduct() {
     };
     const handlePriceChange = (event) => {
         let priceInput = event.target.value;
-        setprice(priceInput);
+        setPrice(priceInput);
     };
 
     const handleDescriptionChange = (event) => {
@@ -64,7 +64,7 @@ function EditProduct() {
                 </div>
                 <div className="mb-3">
                     <label htmlFor="price" className="form-label">Precio</label>
-                    <input name="price" type="text" className="form-control" placeholder={post.price}onChange={handlePriceChange} required />
+                    <input name="price" type="number" className="form-control" placeholder={post.price}onChange={handlePriceChange} required />
                 </div>
 
                 <div className="mb-3">

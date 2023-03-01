@@ -67,7 +67,7 @@ export const router = createBrowserRouter([
                     }
                     ,
                     {
-                        path: "editProduct/:id",
+                        path: "advertisement/editProduct/:id",
                         element: <EditProduct />,
                         loader: loaderPost, 
                     },
@@ -77,11 +77,7 @@ export const router = createBrowserRouter([
                         element: <DeleteProduct />,
                         loader: loaderAdvertisement,
                     },
-                    {
-                        path: "/products",
-                        element: <DeleteProduct />,
-                        loader: loaderAdvertisement,
-                    },
+                   
                     
                     
                     
