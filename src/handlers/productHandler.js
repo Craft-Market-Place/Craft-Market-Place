@@ -9,7 +9,7 @@ export const productHandler = {
         let newProductStructure = { 
             "id": "",
             "title": newProduct.title,
-            "price": newProduct.time,
+            "price": newProduct.price,
             "description": newProduct.description,
             "user": newProduct.user,
             "location": newProduct.location,
@@ -35,7 +35,7 @@ export const productHandler = {
         }
         let updatedProductStructure = {
             "title": updatedProduct.title,
-            "price": updatedProduct.time,
+            "price": updatedProduct.price,
             "description": updatedProduct.description,
             "user": updatedProduct.user,
             "location": updatedProduct.location,

@@ -5,7 +5,7 @@ import { productHandler } from '../handlers/productHandler';
 
 const CreateProduct = () => {
     const [title, setTitle] = useState("");
-    const [time, setTime] = useState(null);
+    const [price, setPrice] = useState(null);
     const [description, setDescription] = useState("");
     const [user, setUser] = useState("");
     const [location, setLocation] = useState("");
@@ -16,9 +16,9 @@ const CreateProduct = () => {
         setTitle(titleInput);
     };
 
-    const handleTimeChange = (event) => {
-        let timeInput = event.target.value;
-        setTime(timeInput);
+    const handlePriceChange = (event) => {
+        let priceInput = event.target.value;
+        setPrice(priceInput);
     };
 
     const handleDescriptionChange = (event) => {
@@ -43,7 +43,7 @@ const CreateProduct = () => {
 
     const handleSubmit = (event) => {
         event.preventDefault();
-        let newProduct = {title, description, time, user, location, img};
+        let newProduct = {title, description, price, user, location, img};
         productHandler.addProduct(newProduct);
         event.target.reset()
     };
@@ -62,8 +62,8 @@ const CreateProduct = () => {
     
   </div>
   <div className="mb-3">
-    <label htmlFor="price" className="form-label">Tiempo</label>
-    <input name="price" type="text" className="form-control" placeholder="¿Cuánto tiempo...?" onChange={handleTimeChange} required/>
+    <label htmlFor="price" className="form-label">Precio</label>
+    <input name="price" type="text" className="form-control" placeholder="¿A qué precio...?" onChange={handlePriceChange} required/>
   </div>
 
   <div className="mb-3">
