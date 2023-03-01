@@ -1,13 +1,17 @@
 
 form{
-    background-color: #566981;
+    background-color: #74522B !important;
     width: 60vw;
     align-items: center;
     justify-content: center;
     padding: 5vh;
     margin: 5vh;
     border-radius: 5vh;
+    color: white;
 }
+
+
+
 #btn-ad{
     background-color: #CBDAD5;
     color: black;
@@ -22,6 +26,8 @@ box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
 .container-form{
     display: flex;
     justify-content: center;
+    background-color: #a7d3f2;
+    opacity: 90%;
     
 }
 

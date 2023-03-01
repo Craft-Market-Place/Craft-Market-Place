@@ -10,12 +10,13 @@ import Navbar from 'react-bootstrap/Navbar';
 function Navigation() {
 return (
 
-    <Navbar bg="light"  className='navigation'>
+    <Navbar bg="light"  expand="xl" className='navigation'>
         <Container className='menu'>
         <Navbar.Brand to="/">
           <NavLink to="/"className="navbar-home"><img src={Logo} alt="Craft-Marketplace"className='Logo'/></NavLink>
-          </Navbar.Brand>  
-          
+        </Navbar.Brand>  
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">  
           <Nav className="">
             <NavLink  to='/' className='text-navbar' href="#home">HOME</NavLink>
                 
@@ -24,6 +25,7 @@ return (
             <NavLink className='text-navbar' to="/advertisement" href="#form">DASHBOARD </NavLink>
                 
           </Nav>
+          </Navbar.Collapse>
         </Container>
       </Navbar>
     

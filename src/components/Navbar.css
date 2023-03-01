@@ -10,8 +10,15 @@
 
 .text-navbar{
   color: #74522B !important;
-  margin-inline-start: .625rem;
+  margin-inline-start: .3125rem;
+  margin-left: 20vh;
 }
+
+#responsive-navbar-nav{
+  color: #74522B !important;
+  
+}
+
 /* .menu{
   display: flex;
   justify-content: space-between;

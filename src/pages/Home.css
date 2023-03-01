@@ -1,10 +1,11 @@
 .title{
-    margin-top: 1.4vh;
-    color: #CBDAD5;
+    margin-top: .3125rem; 
+    color: #74522B;
 }
 
 .anuncios{
-    background-color: #89A7B1;
+    background-color: #a7d3f2;
+    opacity: 90%;
 
 }
 

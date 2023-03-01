@@ -11,7 +11,7 @@ const Home = () => {
 <>
 
                 <Slide/>
-                <h1 className="title">Últimos anuncios</h1>
+                <h2 className="title">Últimos anuncios</h2>
 
             <div className="anuncios">
                 <Trending posts={posts}/>

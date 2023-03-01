@@ -55,7 +55,7 @@ const CreateProduct = () => {
       <div className="container-form">
 
         <form onSubmit={handleSubmit} itemID="form1">
-          <h1>Cuéntanos que ofreces</h1>
+          <h2>Cuéntanos que ofreces</h2>
   <div className="mb-3">
     <label htmlFor="title" className="form-label">Título</label>
     <input name="title" type="text" className="form-control" placeholder="¿Qué ofreces...?" onChange={handleTitleChange} required/>
@@ -67,7 +67,7 @@ const CreateProduct = () => {
   </div>
 
   <div className="mb-3">
-    <label className="form-label" htmlFor="description">Descripcion</label>
+    <label className="form-label" htmlFor="description">Descripción</label>
     <input name="description" type="text" className="form-control" id="input-description" required placeholder="Cuéntanos..." onChange={handleDescriptionChange}/>
   </div>
 
