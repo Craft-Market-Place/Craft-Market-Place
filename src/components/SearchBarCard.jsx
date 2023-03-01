@@ -5,7 +5,7 @@ import "./SearchBarCard.css";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import db from "../../api/db.json";
-import { FaHeart, FaRegHeart } from "../../node_modules/react-icons/fa";
+// import { FaHeart, FaRegHeart } from "../../node_modules/react-icons/fa";
 import { Link } from "react-router-dom";
 
 function Cards() {

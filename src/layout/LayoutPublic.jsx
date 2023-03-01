@@ -15,22 +15,6 @@ const LayoutPublic = () => {
 
     return (
         <>
-<<<<<<< HEAD
-            <Navbar />
-
-           
-           <main className="Cuerpo">
-           
-            {navigation.state === "loading" && (
-                <div className="alert alert-info my-S">Loading...</div>
-            )}  
-                <Outlet />
-            </main> 
-           
-             <Footer/>
-             
-                 
-=======
         <Navbar/>
         {/* <Slide /> */}
         <main>
@@ -41,7 +25,6 @@ const LayoutPublic = () => {
            </main> 
              <Footer/>
         
->>>>>>> deploy
         </>
     );
 };

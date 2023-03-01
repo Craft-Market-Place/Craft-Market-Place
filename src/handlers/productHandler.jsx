@@ -29,23 +29,6 @@ export const productHandler = {
     deleteProduct(id){
         return productService.deleteProduct(id);
     },
-<<<<<<< HEAD:src/handlers/productHandler.jsx
-    updateProduct(id, updatedProduct){
-        if (!updatedProduct) {
-            return;
-        }
-        let updatedProductStructure = {
-            "title": updatedProduct.title,
-            "price": updatedProduct.price,
-            "material": updatedProduct.material,
-            "body": updatedProduct.body,
-            "img": updatedProduct.img,
-        }
-
-        return productService.updateProduct(id, updatedProductStructure);
-    }
-    }
-=======
     updateProduct(newProduct){
         if(!newProduct){
             return;
@@ -63,5 +46,4 @@ export const productHandler = {
         return taskService.updateTask(id, newProductModel);
     }
 }
->>>>>>> deploy:src/handlers/productHandler.js
 
