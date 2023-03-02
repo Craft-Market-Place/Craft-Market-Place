@@ -41,8 +41,8 @@ function SearchBarCard() {
       <div className="cards">
         {data.map((product) => {
           return (
-            <div key={product.id} className="card">
-              <Card.Img variant="top" src={product.img} />
+            <div key={product.id} className="card" style={{ width: '18rem' }}>
+              <Card.Img variant="top"className="img-size" src={product.img} />
               <Card.Body>
                 <Card.Title>{product.title}</Card.Title>
                 <Card.Title>{product.price}</Card.Title>
