@@ -55,38 +55,38 @@ const CreateProduct = () => {
       <div className="container-form">
 
         <form onSubmit={handleSubmit} itemID="form1">
-          <h1>Cuéntanos que ofreces</h1>
+          <h1>what do you want to sell?</h1>
   <div className="mb-3">
-    <label htmlFor="title" className="form-label">Título</label>
-    <input name="title" type="text" className="form-control" placeholder="¿Qué ofreces...?" onChange={handleTitleChange} required/>
+    <label htmlFor="title" className="form-label">Title</label>
+    <input name="title" type="text" className="form-control" placeholder="Product name" onChange={handleTitleChange} required/>
     
   </div>
   <div className="mb-3">
-    <label htmlFor="price" className="form-label">Precio</label>
-    <input name="price" type="text" className="form-control" placeholder="¿A qué precio...?" onChange={handlePriceChange} required/>
+    <label htmlFor="price" className="form-label">Price</label>
+    <input name="price" type="text" className="form-control" placeholder="How much does it cost?" onChange={handlePriceChange} required/>
   </div>
 
   <div className="mb-3">
-    <label className="form-label" htmlFor="description">Descripcion</label>
-    <input name="description" type="text" className="form-control" id="input-description" required placeholder="Cuéntanos..." onChange={handleDescriptionChange}/>
+    <label className="form-label" htmlFor="description">Description</label>
+    <input name="description" type="text" className="form-control" id="input-description" required placeholder="Tell us about the product" onChange={handleDescriptionChange}/>
   </div>
 
   <div className="mb-3">
-    <label htmlFor="user" className="form-label">Usuario</label>
-    <input name="user" type="text" className="form-control" required placeholder="¿Cómo te llamas...?" onChange={handleUserChange} />
+    <label htmlFor="user" className="form-label">User</label>
+    <input name="user" type="text" className="form-control" required placeholder="What is your name?" onChange={handleUserChange} />
   </div>
 
   <div className="mb-3">
-    <label htmlFor="location" className="form-label">Localización</label>
-    <input name="location" type="text" className="form-control" required placeholder="¿Zonas a las que llega tu servicio...?" onChange={handleLocationChange} />
+    <label htmlFor="location" className="form-label">Location</label>
+    <input name="location" type="text" className="form-control" required placeholder="Where is your product?" onChange={handleLocationChange} />
   </div>
 
   <div className="mb-3">
     <label htmlFor="img" className="form-label">Imagen</label>
-    <input name="img" type="text" className="form-control" placeholder="Sube una foto..." onChange={handleImgChange} required/>
+    <input name="img" type="text" className="form-control" placeholder="Upload a picture" onChange={handleImgChange} required/>
   </div>
 
-  <button type="submit" className="btn btn-primary" id="btn-ad">Enviar</button>
+  <button type="submit" className="btn btn-primary" id="btn-ad">Submit</button>
 </form>
 </div>
     );

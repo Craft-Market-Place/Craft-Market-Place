@@ -1,5 +1,6 @@
 .container-cards{
-    background-color: #566981;
+    display: grid;
+    background-color: #80C5F6;
     padding: 5vh;
 }
 

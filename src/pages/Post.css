@@ -8,9 +8,10 @@
 #container-text{
     margin-top: -12vh;
 }
-h1{
-    background-color: #566981;
-    color: #CBDAD5;
+h1, 
+.form-label{
+
+    color: #74522B;
 }
 
 #logo-location{
@@ -39,7 +40,7 @@ h1{
 
 #div-post{
     
-    background-color:#89a7b13f;
+    background-color:#D9D9D9;
 
 }
 
