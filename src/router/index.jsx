@@ -9,11 +9,6 @@ import NotFound from "../pages/NotFound";
 import Searchbar from "../components/SearchBar/Searchbar"
 import EditProduct from "../pages/EditProduct"
 import DeleteProduct from "../pages/Deleteproduct";
-import EditService from "../pages/EditService"
-import Cookies from "../pages/Cookies";
-import Warning from "../pages/Warning";
-// import Navbar from "../components/Navbar";
-// import Cards from "../components/Card";
 
 
 export const router = createBrowserRouter([
@@ -49,25 +44,12 @@ export const router = createBrowserRouter([
                         element: <Searchbar />,
                         loader: loaderPost,
                     }, 
-                    {
-                        path: '/editadvertisement/:id',
-                        element: <EditService />,
-                        loader: loaderPost,
-                    }, 
+                    
+                    
+                    
                     
                     {
-                        path: '/cookies',
-                        element: <Cookies />,
-                    }
-                    , 
-                    
-                    {
-                        path: '/warning',
-                        element: <Warning />,
-                    }
-                    ,
-                    {
-                        path: "editProduct/:id",
+                        path: "advertisement/editProduct/:id",
                         element: <EditProduct />,
                         loader: loaderPost, 
                     },
@@ -77,11 +59,7 @@ export const router = createBrowserRouter([
                         element: <DeleteProduct />,
                         loader: loaderAdvertisement,
                     },
-                    {
-                        path: "/products",
-                        element: <DeleteProduct />,
-                        loader: loaderAdvertisement,
-                    },
+                   
                     
                     
                     

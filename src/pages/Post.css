@@ -10,8 +10,8 @@
 }
 h1, 
 .form-label{
-
-    color: #74522B;
+  text-align: center;
+    color: #f4f3f2;
 }
 
 #logo-location{
@@ -40,11 +40,12 @@ h1,
 
 #div-post{
     
-    background-color:#D9D9D9;
+    background-color: #a7d3f2 !important;
+    
 
 }
 
 .price{
     margin-right: 2vh;
-   
 }
+

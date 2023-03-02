@@ -8,7 +8,6 @@
       "user": "Majealcero",
       "location": "Seville",
       "img": "https://imagedelivery.net/0ObHXyjKhN5YJrtuYFSvjQ/i-17e0f586-8213-48a4-a46f-93ce50bb8182-Baby-blanket-Blue-handmade-blanket-Baby-boy-shower-gift-New-baby-gift--TashaBeSpoke/display"
-      
     },
     {
       "id": 2,
@@ -41,7 +40,7 @@
       "id": 5,
       "title": "Bag",
       "price": "15€",
-      "description":"This beautiful tote bag is handmade from a gorgeous soft furnishing fabric which features a palm leaf design and contrasting repurposed ombre denim handles. Made from heavy weight linen type fabric. Strong and useful, I have used French seams which conceal raw edges and are double stitched for strength. Use as a beach bag or everyday bag to carry your books, shopping or crafting projects. The shoulder straps have been double stitched onto the bag and are long enough to carry over the shoulder for easy carrying.The materials used in this bag have been reclaimed and diverted from going to landfill, eco-friendly, pretty and practical.",
+      "description": "This beautiful tote bag is handmade from a gorgeous soft furnishing fabric which features a palm leaf design and contrasting repurposed ombre denim handles. Made from heavy weight linen type fabric. Strong and useful, I have used French seams which conceal raw edges and are double stitched for strength. Use as a beach bag or everyday bag to carry your books, shopping or crafting projects. The shoulder straps have been double stitched onto the bag and are long enough to carry over the shoulder for easy carrying.The materials used in this bag have been reclaimed and diverted from going to landfill, eco-friendly, pretty and practical.",
       "user": "Majealcero",
       "location": "Seville",
       "img": "https://imagedelivery.net/0ObHXyjKhN5YJrtuYFSvjQ/i-d5f75db8-58d2-4230-8b04-d1c16a1e6f84-Handmade-Tote-Bag-Palm-Leaves--Kath-Heywood-Designs/display"
@@ -50,7 +49,7 @@
       "id": 6,
       "title": "Jacket",
       "price": "30€",
-      "description":"Unique handmade crochet jacket in granny squares, this jacket is cosy and on trend at the moment. I love the colours they look fabulous together and I think the coloured edge just finishes the look. It measures chest 110cms (43inches), length 62cms(24.5inches), sleeve length 32cms(12.5inches), sleeve width 54cms(21inches).",
+      "description": "Unique handmade crochet jacket in granny squares, this jacket is cosy and on trend at the moment. I love the colours they look fabulous together and I think the coloured edge just finishes the look. It measures chest 110cms (43inches), length 62cms(24.5inches), sleeve length 32cms(12.5inches), sleeve width 54cms(21inches).",
       "user": "Majealcero",
       "location": "Seville",
       "img": "https://imagedelivery.net/0ObHXyjKhN5YJrtuYFSvjQ/i-5222a681-9ace-49f1-bf79-7ec23e529cd0-Handmade-crochet-jacket-in-granny-squares-edging-black-and-peach-172--Crafty-Nanna/display"
@@ -91,6 +90,5 @@
       "location": "Seville",
       "img": "https://imagedelivery.net/0ObHXyjKhN5YJrtuYFSvjQ/i-4694bd76-3ae7-486b-bc27-bfda709cd1ae-crochet-daisy-baby-slipper-shoes-in-pale-rose-sizes-newborn-up-to-2-years-crochet-and-i-handmade/display"
     }
-
   ]
 }

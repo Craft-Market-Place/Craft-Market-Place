@@ -1,36 +1,23 @@
-.logo{
-  width: 20vw;
-  height: 20vh;  
+.Logo{
+  width: 15vw !important;
+    
 }
 
-  .navbar {
-    display: flex;
-    justify-content: space-around;
-    height: 12vh;
-    background-color: #F0CF84;
-    color: rgba(148, 85, 58, 0.87);
-    font-size: 1.600rem;
-    text-decoration: none;     
-  }
+.navigation{
+  background-color: #F0CF84 !important;
+  
+}
 
-  .logo-Craft{
-    width: 8.625rem;       
-  }
- 
-  .navbar-Cart{
-    background-color: #8b593d;
-    border-radius: 80%;
-    height: 3.125rem;
-  }
-  .navbar-home{
-    text-decoration: none;
-    color: rgba(148, 85, 58, 0.87);
-  }
-  .navbar-Products{
-    text-decoration: none;
-    color: rgba(148, 85, 58, 0.87);
-  }
-  .navbar-DashBoard{
-    text-decoration: none;
-    color: rgba(148, 85, 58, 0.87);
-  }
+.text-navbar{
+  color: #74522B !important;
+  margin-inline-start: .3125rem;
+  margin-left: 20vh;
+}
+
+#responsive-navbar-nav{
+  color: #74522B !important;
+  
+}
+
+
+

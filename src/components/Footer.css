@@ -3,7 +3,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #CBDAD5;
+    background-color: #F0CF84 !important;
     width: 100%;
     height: 6vh;
     position: relative;
@@ -18,7 +18,7 @@
     font-weight: 400;
     font-size: 2vh;
     line-height: 38px;
-    color: #000000;
+    color: rgba(116, 82, 43, 1);
 }
 
 .socialNetworks {
@@ -29,10 +29,6 @@
     margin-right: 3vh;
 
 }
-.footer-About{
-    margin-top: 1.25rem;
-    color: rgba(148, 85, 58, 0.87);
-    text-decoration: none; 
 
 @media (min-width: 414px) {
     .footerContainer{
@@ -66,4 +62,7 @@
         height: 0;
     }
   }
+<<<<<<< HEAD
 }
+=======
+>>>>>>> Edit-and-Delete

@@ -1,13 +1,17 @@
 
 form{
-    background-color: #80C5F6;
+    background-color: #5AA386 !important;
     width: 60vw;
     align-items: center;
     justify-content: center;
     padding: 5vh;
     margin: 5vh;
     border-radius: 5vh;
+    color: white;
 }
+
+
+
 #btn-ad{
     background-color: #80C5F6;
     color: black;
@@ -22,6 +26,8 @@ box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
 .container-form{
     display: flex;
     justify-content: center;
+    background-color: #a7d3f2;
+    opacity: 90%;
     
 }
 
@@ -32,5 +38,9 @@ box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
 
 #input-description{
 height: 20vh;
+}
+.item-count{
+   padding-left: 31.25rem;
+
 }
 
