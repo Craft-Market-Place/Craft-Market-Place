@@ -29,13 +29,16 @@ function SearchBarCard() {
     setProductsData(productsData.filter(post => post.id !== id))
 }
 
+
   return (
+    <div className="container-gn">
+      <h1>Welcome to your Dahsboard Majealcero</h1>
     <>
       <div className="container-bar">
         <input
           className="searchStyle"
           type="text"
-          placeholder="Search by product or location"
+          placeholder="🔍 Search by product"
           value={searchQuery}
           onChange={handleSearchChange}
         />
@@ -61,7 +64,9 @@ function SearchBarCard() {
         })}
       </div>
     </>
+    </div>
   );
 }
 
 export default SearchBarCard;
+
