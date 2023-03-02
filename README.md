@@ -5,14 +5,18 @@ Welcome to our second-hand handmade items platform. Here you can find a wide var
  🙌Our vision is to create an online platform that serves as a community marketplace for second-hand handmade items. We strive to promote reuse and recycling through the sale of handmade products, while also supporting talented and creative artisans by providing a space to sell their goods. Additionally, we aim to build a vibrant and positive online community that fosters connection between buyers and sellers, and values creativity, craftsmanship, and sustainability.🙌
 
 💻 Desktop graphic reference
+
 Craft-Market-Place-figma
 
 🛠️ Tools
+
 Trello
 Figma
 Git / GitHub
 Visual Studio Code
+
 💡Technologíes
+
 React
 HTML
 Bootstrap
@@ -27,6 +31,7 @@ NodeJS.
 5) npm run dev
 
 📙 Content
+
  Landing page that explains what will you find in our platform and link to the handmade products.
  Second page with all the products.
  Each add with title, image, price, description, user and location.
