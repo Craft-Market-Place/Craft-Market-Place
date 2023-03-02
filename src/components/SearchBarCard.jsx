@@ -9,7 +9,8 @@ import db from "../../api/db.json";
 import { Link } from "react-router-dom";
 
 function Cards({deleteProduct}) {
-  const [product] = useState(db.products);
+  const [post] = useState(db.products);
+  const { id, title, price,description,user,location,img, } = post;
   const [searchQuery, setSearchQuery] = useState("");
   const data = db.products.filter(
     (product) =>
