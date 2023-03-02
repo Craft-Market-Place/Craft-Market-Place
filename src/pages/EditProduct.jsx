@@ -38,8 +38,11 @@ function EditProduct() {
     };
 
     const handleImgChange = (event) => {
-        let imgInput = event.target.value;
-        setImg(imgInput);
+        const file = event.target.files[0];
+        const reader = new FileReader();
+        reader.readAsDataURL(file);
+        reader.onload = () => {
+        setImg(reader.result)};
     };
 
     const handleSubmit = (event) => {
@@ -84,7 +87,7 @@ function EditProduct() {
 
                 <div className="mb-3">
                     <label htmlFor="img" className="form-label">Image</label>
-                    <input name="img" type="text" className="form-control" 
+                    <input name="img" type="file" className="form-control" 
                     onChange={handleImgChange}  />
                 </div>
 
