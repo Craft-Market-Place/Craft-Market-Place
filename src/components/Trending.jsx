@@ -1,18 +1,13 @@
-
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import db from '../../api/db.json'
 import './Card.css';
 import { Link } from 'react-router-dom';
 
-function Trending({ posts, deleteProduct }) {
-  console.log(posts);
-  console.log(deleteProduct);
-
-
-  const randomIndex = Math.floor(Math.random() * (posts.length - 3));
-  const resultTrending = posts.slice(randomIndex, randomIndex + 3);
+function Trending({ products, deleteProduct }) {
+  
+  const randomIndex = Math.floor(Math.random() * (products.length - 3));
+  const resultTrending = products.slice(randomIndex, randomIndex + 3);
 
   return (
     <div className="cards">

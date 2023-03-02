@@ -1,5 +1,4 @@
 import { useLoaderData } from "react-router-dom";
-// import ContactForm from "../components/ContactForm";
 import Location from '../assets/location.png';
 import Price from '../assets/price.png';
 import './Post.css';
@@ -28,7 +27,6 @@ const Post = () => {
             <img className="rounded-circle" src={post.user} alt="" />
           <h6> {post.userName}</h6>
         </div>
-      {/* <ContactForm /> */}
       </div>
     </div>
   );

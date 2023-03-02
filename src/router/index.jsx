@@ -3,12 +3,12 @@ import { productHandler } from "../handlers/productHandler";
 import LayoutPublic from "../layout/LayoutPublic";
 import Home from '../pages/Home';
 import Form from '../pages/Form';
-import Advertisement from '../pages/Advertisement';
 import Post from '../pages/Post';
 import NotFound from "../pages/NotFound";
 import Searchbar from "../components/SearchBar/Searchbar"
 import EditProduct from "../pages/EditProduct"
 import DeleteProduct from "../pages/Deleteproduct";
+import SearchBarCard from "../components/SearchBarCard";
 
 
 export const router = createBrowserRouter([
@@ -31,7 +31,7 @@ export const router = createBrowserRouter([
                     },
                     {
                         path: '/advertisement',
-                        element: <Advertisement />,
+                        element: <SearchBarCard />,
                         loader: loaderAdvertisement,
                     },    
                     {
@@ -43,11 +43,7 @@ export const router = createBrowserRouter([
                         path: '/searchbar',
                         element: <Searchbar />,
                         loader: loaderPost,
-                    }, 
-                    
-                    
-                    
-                    
+                    },                     
                     {
                         path: "advertisement/editProduct/:id",
                         element: <EditProduct />,
@@ -76,8 +72,7 @@ async function loaderPost  ({ params })  {
 };
 
 async function loaderAdvertisement () {
- const posts = await productHandler.loadProducts()
-    console.log (posts)
-    return { posts };
+ const products = await productHandler.loadProducts()
+    return { products };
  };
 

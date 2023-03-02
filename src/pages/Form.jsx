@@ -31,12 +31,12 @@ const CreateProduct = () => {
         setLocation(locationInput);
     };
     const handleImgChange = (event) => {
-        const file = event.target.files[0];
-        const reader = new FileReader();
-        reader.readAsDataURL(file);
-        reader.onload = () => {
-        setImg(reader.result)};
-    };
+      const file = event.target.files[0];
+      const reader = new FileReader();
+      reader.readAsDataURL(file);
+      reader.onload = () => {
+      setImg(reader.result)};
+  };
     const handleSubmit = (event) => {
         event.preventDefault();
         let newProduct = {title, description, price, user, location, img};
