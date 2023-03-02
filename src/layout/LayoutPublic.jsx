@@ -15,16 +15,20 @@ const LayoutPublic = () => {
 
     return (
         <>
-        <Navbar/>
-        {/* <Slide /> */}
-        <main>
-           {navigation.state === "loading" && (
-               <div className="alert alert-info my-S">Loading...</div>
-           )}  
-               <Outlet />
-           </main> 
+            <Navbar />
+
+           
+           <main className="Cuerpo">
+           
+            {navigation.state === "loading" && (
+                <div className="alert alert-info my-S">Loading...</div>
+            )}  
+                <Outlet />
+            </main> 
+           
              <Footer/>
-        
+             
+                 
         </>
     );
 };

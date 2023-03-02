@@ -1,9 +1,16 @@
-.anuncios{
+
+.Cuerpo{
     display: flex;
-    justify-content: space-around;
-    padding-bottom: 2rem;
-    padding-top: 2rem;
-}
+    color: rgba(148, 85, 58, 0.87);
+    display: flex;
+    background-color: rgba(128, 197, 246, 0.36);
+    background-repeat:no-repeat;
+    height: 100%; 
+    width: 100%;
+    font-family: pitch, courier new, Courier, lucida sans typewriter, lucida typewriter, monospace;
+    
+    font-weight: bold;   
+ } 
     
 .title{
     display: flex;

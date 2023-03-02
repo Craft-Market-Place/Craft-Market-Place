@@ -1,12 +1,42 @@
-.title{
-    margin-top: 1.4vh;
-    color: #CBDAD5;
+.section-container {
+    height: 80vh;
+    width: 100vw;
+    background-image: url(../../public/Vintaje.png);
+    font-weight: bold;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    
 }
 
-.anuncios{
-    background-color: #89A7B1;
+.bloque {
+    text-align: center;
+  
+    padding: 1.25rem;
+    font-size: 1.5625rem;
+    grid-column: 1/5;
+    font-family: pitch, courier new, Courier, lucida sans typewriter, lucida typewriter, monospace;
 
 }
+
+carousel slide .img-fluid {
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    padding-right: 650px;
+
+}
+
+.carousel-inner {
+   transition: 0.3s;
+   height: 460px;
+    display: flex;
+    justify-content: center;
+    padding-right: 750px;
+
+}
+
 
 p{
     line-height: 3vh;

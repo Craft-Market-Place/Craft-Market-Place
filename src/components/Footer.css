@@ -29,6 +29,10 @@
     margin-right: 3vh;
 
 }
+.footer-About{
+    margin-top: 1.25rem;
+    color: rgba(148, 85, 58, 0.87);
+    text-decoration: none; 
 
 @media (min-width: 414px) {
     .footerContainer{
@@ -62,4 +66,4 @@
         height: 0;
     }
   }
-  
+}

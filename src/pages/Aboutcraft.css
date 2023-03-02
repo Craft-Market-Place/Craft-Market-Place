@@ -1,0 +1,43 @@
+.About {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; 
+    height: 80vh; 
+    width: 100vw;  
+}
+
+.images {
+    display: flex;
+    justify-content: space-around;
+}
+
+.image-doll {
+    width: 15.625rem;
+   
+    border-radius: 30%;
+}
+
+.image-blanket {
+    width: 15.625rem;
+    border-radius: 30%;
+
+}
+
+.image-cogin {
+    width: 15.625rem;
+   
+    border-radius: 30%;
+   
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
