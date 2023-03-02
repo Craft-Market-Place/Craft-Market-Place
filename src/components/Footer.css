@@ -29,13 +29,11 @@
     margin-right: 3vh;
 
 }
-<<<<<<< HEAD
 .footer-About{
     margin-top: 1.25rem;
     color: rgba(148, 85, 58, 0.87);
     text-decoration: none; 
-=======
->>>>>>> deploy
+}
 
 @media (min-width: 414px) {
     .footerContainer{
@@ -69,4 +67,3 @@
         height: 0;
     }
   }
-  
