@@ -3,13 +3,13 @@ import React from 'react'
 const Warning = () => {
   return (
     <div>    
-    <p><strong>LEY DE LOS SERVICIOS DE LA SOCIEDAD DE LA INFORMACIÓN&nbsp;(LSSI)</strong></p>
+    <p><strong>LEY DE LOS SERVICIOS DE LA SOCIEDAD DE LA INFORMACIÓN;(LSSI)</strong></p>
 
     <p><strong>MERAKY S.L.</strong>, responsable del sitio web, en adelante RESPONSABLE, pone a disposición de los usuarios el presente documento, con el que pretende dar cumplimiento a las obligaciones dispuestas en la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y del Comercio Electrónico (LSSICE), así como informar a todos los usuarios del sitio web respecto a cuáles son las condiciones de uso.</p>
 
-    <p>Toda persona que acceda a este sitio web asume el papel de usuario, comprometiéndose a la observancia y cumplimiento riguroso de las disposiciones aquí dispuestas, así como a cualquier otra disposición legal que fuera de aplicación.&nbsp;</p>
+    <p>Toda persona que acceda a este sitio web asume el papel de usuario, comprometiéndose a la observancia y cumplimiento riguroso de las disposiciones aquí dispuestas, así como a cualquier otra disposición legal que fuera de aplicación.;</p>
 
-    <p><strong>MERAKY S.L.</strong>&nbsp;se reserva el derecho de modificar cualquier tipo de información que pudiera aparecer en el sitio web, sin que exista obligación de preavisar o poner en conocimiento de los usuarios dichas obligaciones, entendiéndose como suficiente con la publicación en el sitio web de&nbsp;<strong>TU EMPRESA, S.L</strong></p>
+    <p><strong>MERAKY S.L.</strong>;se reserva el derecho de modificar cualquier tipo de información que pudiera aparecer en el sitio web, sin que exista obligación de preavisar o poner en conocimiento de los usuarios dichas obligaciones, entendiéndose como suficiente con la publicación en el sitio web de;<strong>TU EMPRESA, S.L</strong></p>
 
     <p><strong>1. DATOS IDENTIFICATIVOS</strong></p>
 
@@ -34,7 +34,7 @@ const Warning = () => {
 
     <p>El Usuario se compromete a:</p>
 
-    <li>Hacer un uso adecuado y lícito del Espacio Web así como de los contenidos y servicios, de&nbsp; conformidad con: (i) la legislación aplicable en cada momento; (ii) las Condiciones Generales de Uso del Espacio Web; (iii) la moral y buenas costumbres generalmente aceptadas y (iv) el orden público.</li>
+    <li>Hacer un uso adecuado y lícito del Espacio Web así como de los contenidos y servicios, de; conformidad con: (i) la legislación aplicable en cada momento; (ii) las Condiciones Generales de Uso del Espacio Web; (iii) la moral y buenas costumbres generalmente aceptadas y (iv) el orden público.</li>
 
     <li>Proveerse de todos los medios y requerimientos técnicos que se precisen para acceder al Espacio Web.</li>
 
@@ -64,13 +64,13 @@ const Warning = () => {
 
     <p><strong>6. RESPONSABILIDADES</strong></p>
 
-    <p>No se garantiza el acceso continuado, ni la correcta visualización, descarga o utilidad&nbsp; de los elementos e informaciones contenidas en la web que puedan verse impedidos, dificultados o interrumpidos por factores o circunstancias que están fuera de su control. No se hace responsable de las decisiones que pudieran adoptarse como consecuencia del acceso a los contenidos o informaciones ofrecidas.</p>
+    <p>No se garantiza el acceso continuado, ni la correcta visualización, descarga o utilidad; de los elementos e informaciones contenidas en la web que puedan verse impedidos, dificultados o interrumpidos por factores o circunstancias que están fuera de su control. No se hace responsable de las decisiones que pudieran adoptarse como consecuencia del acceso a los contenidos o informaciones ofrecidas.</p>
 
     <p>Se podrá interrumpir el servicio, o resolver de modo inmediato la relación con el Usuario, si se detecta que un uso de su Espacio Web, o de cualquiera de los servicios ofertados en el mismo, es contrario a las presentes Condiciones Generales de Uso. No nos hacemos responsables por daños, perjuicios, pérdidas, reclamaciones o gastos derivados del uso del Espacio Web.</p>
 
     <p>Únicamente será responsable de eliminar, lo antes posible, los contenidos que puedan generar tales perjuicios, siempre que así se notifique. En especial no seremos responsables de los perjuicios que se pudieran derivar, entre otros, de:</p>
 
-        <li>Interferencias, interrupciones, fallos, omisiones, averías telefónicas, retrasos, bloqueos o desconexiones en el funcionamiento del sistema electrónico, motivadas por deficiencias, sobrecargas y errores en las líneas y redes de telecomunicaciones, o por cualquier otra causa ajena al control de la empresa.&nbsp;</li>
+        <li>Interferencias, interrupciones, fallos, omisiones, averías telefónicas, retrasos, bloqueos o desconexiones en el funcionamiento del sistema electrónico, motivadas por deficiencias, sobrecargas y errores en las líneas y redes de telecomunicaciones, o por cualquier otra causa ajena al control de la empresa.;</li>
 
         <li>Intromisiones ilegítimas mediante el uso de programas malignos de cualquier tipo y a través de cualquier medio de comunicación, tales como virus informáticos o cualesquiera otros.</li>
 
@@ -100,7 +100,7 @@ const Warning = () => {
 
     <p>La empresa se reserva el derecho de utilizar la tecnología “cookie” en el Espacio Web, a fin de reconocerlo como Usuario frecuente y personalizar el uso que realice del Espacio Web mediante la preselección de su idioma, o contenidos más deseados o específicos.</p>
 
-    <p>Las cookies recopilan la dirección&nbsp;IP&nbsp;del usuario siendo&nbsp; target="_blank" rel="noreferrer noopener"Google&nbsp;el responsable del tratamiento de esta información.</p>
+    <p>Las cookies recopilan la dirección;IP;del usuario siendo; target="_blank" rel="noreferrer noopener"Google;el responsable del tratamiento de esta información.</p>
 
     <p>Las cookies son ficheros enviados a un navegador, por medio de un servidor Web, para registrar la navegación del Usuario en el Espacio Web, cuando el Usuario permita su recepción. Si usted lo desea puede configurar su navegador para ser avisado en pantalla de la recepción de cookies y para impedir la instalación de cookies en su disco duro. Por favor consulte las instrucciones y manuales de su navegador para ampliar esta información.</p>
 

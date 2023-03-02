@@ -8,8 +8,6 @@ import Post from '../pages/Post';
 import NotFound from "../pages/NotFound";
 import Searchbar from "../components/SearchBar/Searchbar"
 import EditService from "../pages/EditProduct";
-import Cookies from "../pages/Cookies";
-import Warning from "../pages/Warning";
 // import Navbar from "../components/Navbar";
 // import Cards from "../components/Card";
 
@@ -52,17 +50,6 @@ export const router = createBrowserRouter([
                         element: <EditService />,
                         loader: loaderPost
                     }, 
-                    
-                    {
-                        path: '/cookies',
-                        element: <Cookies />,
-                    }
-                    , 
-                    
-                    {
-                        path: '/warning',
-                        element: <Warning />,
-                    }
                 ]
             },
          
