@@ -38,6 +38,7 @@ NodeJS.
  Search bar: You can search by location or product title.
 
 🌞ForTheBadge built-with-love
+
 Rocio-Leiva
 
 AldaraMG
