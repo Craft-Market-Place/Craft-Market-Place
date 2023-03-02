@@ -7,9 +7,9 @@ import Advertisement from '../pages/Advertisement';
 import Post from '../pages/Post';
 import NotFound from "../pages/NotFound";
 import Searchbar from "../components/SearchBar/Searchbar"
-import EditService from "../pages/EditProduct";
-// import Navbar from "../components/Navbar";
-// import Cards from "../components/Card";
+import EditProduct from "../pages/EditProduct"
+import DeleteProduct from "../pages/Deleteproduct";
+import EditService from "../pages/EditService"
 
 
 export const router = createBrowserRouter([
@@ -43,13 +43,33 @@ export const router = createBrowserRouter([
                     {
                         path: '/searchbar',
                         element: <Searchbar />,
-                        loader: loaderPost
+                        loader: loaderPost,
                     }, 
                     {
                         path: '/editadvertisement/:id',
                         element: <EditService />,
-                        loader: loaderPost
+                        loader: loaderPost,
                     }, 
+                    
+                    {
+                        path: "editProduct/:id",
+                        element: <EditProduct />,
+                        loader: loaderPost, 
+                    },
+                    
+                    {
+                        path: "/",
+                        element: <DeleteProduct />,
+                        loader: loaderAdvertisement,
+                    },
+                    {
+                        path: "/products",
+                        element: <DeleteProduct />,
+                        loader: loaderAdvertisement,
+                    },
+                    
+                    
+                    
                 ]
             },
          

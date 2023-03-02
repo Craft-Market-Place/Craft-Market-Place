@@ -13,11 +13,12 @@ margin-left: 15vh;
     width: 20vw;
     margin: 5vh;
     color: black;
+    
   
 }
 
 .btn-ad{
-    background-color: #CBDAD5;
+    background-color: #80C5F6;
     color: black;
     border-style: none;
     
@@ -25,7 +26,7 @@ margin-left: 15vh;
 
 .btn-ad:hover{
 color: white;
-background-color: #566981;
+background-color: #80C5F6;
 }
 
 @media (max-width: 414px) {

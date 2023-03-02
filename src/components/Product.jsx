@@ -5,13 +5,13 @@ import { Link } from 'react-router-dom';
 
 function Product({ product }) {
 
-    const { title, time } = product;
+    const { title, price } = product;
 
     return (
         <div className="productCard">
             <div className="productCard--info">
                 <h1>{title}</h1>
-                <p>tiempo: {time}</p>
+                <p>price: {price}</p>
             </div>
             <div className="productCard--buttons">
                 <DeleteIcon fontSize="large" />
