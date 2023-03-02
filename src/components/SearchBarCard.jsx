@@ -5,7 +5,6 @@ import "./SearchBarCard.css";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import db from "../../api/db.json";
-//import { FaHeart, FaRegHeart } from "../../node_modules/react-icons/fa";
 import { Link } from "react-router-dom";
 
 function Cards({deleteProduct}) {
@@ -21,15 +20,7 @@ function Cards({deleteProduct}) {
   const handleSearchChange = (event) => {
     setSearchQuery(event.target.value);
   };
-  // const handleFavorite = (id) => {
-  //   const newProducts = products.map((product) => {
-  //     if (product.id === id) {
-  //       return { ...product, isFavorite: !product.isFavorite };
-  //     }
-  //     return product;
-  //   });
-  //   setProducts(newProducts);
-  // };
+ 
 
   return (
     <>
@@ -37,7 +28,7 @@ function Cards({deleteProduct}) {
         <input
           className="searchStyle"
           type="text"
-          placeholder="Search product"
+          placeholder="Search by product or location"
           value={searchQuery}
           onChange={handleSearchChange}
         />
@@ -49,6 +40,7 @@ function Cards({deleteProduct}) {
               <Card.Img variant="top" src={product.img} />
               <Card.Body>
                 <Card.Title>{product.title}</Card.Title>
+                <Card.Title>{product.price}</Card.Title>
                 <Card.Text>{product.location}</Card.Text>
                 <Link to={`/advertisement/${product.id}`}>
                   <Button className="btn-ad">More information</Button>

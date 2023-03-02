@@ -1,50 +1,23 @@
-.logo{
-  width: 20vw;
-  height: 20vh;  
+.Logo{
+  width: 15vw !important;
+    
 }
 
-.menu{
-display: flex;
-justify-content: space-between;
-}
 .navigation{
-  height: 12vh;
-}
-.navbar-DashBoard{
-margin-top: 1vw;
+  background-color: #F0CF84 !important;
+  
 }
 
-.navbar-Products{
-margin-left: 40vw;
-margin-right: 10vw;
+.text-navbar{
+  color: #74522B !important;
+  margin-inline-start: .3125rem;
+  margin-left: 20vh;
 }
 
-p{
-  color: black;
-  text-decoration: none;
-}
-
-.navbar-Products, .navbar-DashBoard{
-  text-decoration: none;
-  font-weight: 600;
-}
-
-.navbar-Products:hover{
-  color: red;
-
+#responsive-navbar-nav{
+  color: #74522B !important;
+  
 }
 
 
-@media (max-width: 414px) {
-  .navigation{
-      height: 15vh;
-      margin-top: -2vh;
-  }
-}
 
-@media (max-width: 360px) {
-  .navigation{
-      height: 15vh;
-      margin-top: -2vh;
-  }
-}

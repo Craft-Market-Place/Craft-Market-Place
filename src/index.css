@@ -1,15 +1,5 @@
-/* #root {
-    box-sizing: content-box;
-   display: grid;
-    font-family: pitch, courier new, Courier, lucida sans typewriter, lucida typewriter, monospace;
-    line-height: 1.5;
-    color-scheme: light dark;
-    color: rgba(148, 85, 58, 0.87);
-    height: 100%; 
-    width: 100%;
-   display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto auto auto auto;
 
 
-} */
+.body{
+    background-color: #F0CF84;
+}

@@ -26,7 +26,7 @@ function Trending({ posts, deleteProduct }) {
               <Card.Text>
                 {product.location}
               </Card.Text>
-              <Link to={`/advertisement/${product.id}`}><Button className='btn-ad'>Quiero saber más</Button></Link>
+              <Link to={`/advertisement/${product.id}`}><Button className='btn-ad'>More information</Button></Link>
             </Card.Body>
           </div>
         )
