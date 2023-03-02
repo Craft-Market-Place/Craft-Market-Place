@@ -1,18 +1,19 @@
-
 import './Advertisement.css'
-import SearchbarCard from '../components/SearchBarCard'
+import SearchBarCard from '../components/SearchBarCard'
+import { useLoaderData } from "react-router-dom"
+import { useState } from "react";
+import { productHandler } from "../handlers/productHandler";
+
 const Advertisement = () => { 
-    
     
 
     return (
         <>
-        <div className='container-cards'>
-        <SearchbarCard />
-        </div>
-       
-        </>
-    );
+        {productsData.map((post) => (
+            <SearchBarCard key={post.id} post={post} deleteProduct={deleteProduct} />
+        ))}
+      </>
+    )
  };
  export default Advertisement;
 

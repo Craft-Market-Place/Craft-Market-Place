@@ -1,8 +1,7 @@
 import { useLoaderData } from "react-router-dom"
 import { useState } from "react";
 import { productHandler } from "../handlers/productHandler";
-
-import Post from '../pages/Post'
+import SearchBarCard from '../components/SearchBarCard'
 
 
 function DeleteProduct() {
@@ -10,19 +9,15 @@ function DeleteProduct() {
     
     const [productsData, setProductsData] = useState(products);
    
-    
-    
-
     const deleteProduct = async (id) => {
-        
-      await productHandler.deleteProduct(id);
+       await productHandler.deleteProduct(id);
       setProductsData(productsData.filter(post => post.id !== id))
   }
 
     return (
         <>
         {productsData.map((post) => (
-            <Post key={post.id} post={post} deleteProduct={deleteProduct} />
+            <SearchBarCard key={post.id} post={post} deleteProduct={deleteProduct} />
         ))}
       </>
     )
