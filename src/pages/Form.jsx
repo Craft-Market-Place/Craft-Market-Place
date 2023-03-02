@@ -31,8 +31,11 @@ const CreateProduct = () => {
         setLocation(locationInput);
     };
     const handleImgChange = (event) => {
-        let imgInput = event.target.value;
-        setImg(imgInput);
+        const file = event.target.files[0];
+        const reader = new FileReader();
+        reader.readAsDataURL(file);
+        reader.onload = () => {
+        setImg(reader.result)};
     };
     const handleSubmit = (event) => {
         event.preventDefault();
@@ -70,7 +73,7 @@ const CreateProduct = () => {
   </div>
   <div className="mb-3">
     <label htmlFor="img" className="form-label">Image</label>
-    <input name="img" type="text" className="form-control" placeholder="Upload a picture" onChange={handleImgChange} required/>
+    <input name="img" type="file" className="form-control" placeholder="Upload a picture" onChange={handleImgChange} required/>
   </div>
   <div className='item-count'>
 <ItemCount initial={1} stock={5} onAdd={onAdd} />
