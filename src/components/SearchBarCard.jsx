@@ -4,23 +4,28 @@ import "./Card.css";
 import "./SearchBarCard.css";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
-import db from "../../api/db.json";
-import { Link } from "react-router-dom";
+import { Link, useLoaderData } from "react-router-dom";
+import { productHandler } from "../handlers/productHandler";
 
-function Cards({deleteProduct}) {
-  const [post] = useState(db.products);
-  const { id, title, price,description,user,location,img, } = post;
+
+function SearchBarCard() {
+ 
+  const handleSearchChange = (event) => {
+    setSearchQuery(event.target.value);
+  };
+  const { products} = useLoaderData();
+  const [productsData, setProductsData] = useState(products);
   const [searchQuery, setSearchQuery] = useState("");
-  const data = db.products.filter(
+  const data = products.filter(
     (product) =>
       product.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
       product.location.toLowerCase().includes(searchQuery.toLowerCase())
   );
-
-  const handleSearchChange = (event) => {
-    setSearchQuery(event.target.value);
-  };
- 
+  const deleteProduct = async (id) => {
+      console.log("hola");
+    await productHandler.deleteProduct(id);
+    setProductsData(productsData.filter(post => post.id !== id))
+}
 
   return (
     <>
@@ -46,7 +51,7 @@ function Cards({deleteProduct}) {
                   <Button className="btn-ad">More information</Button>
                 </Link>
                 <Link to={`editProduct/${product.id}`}><Button className="btn-E">Edit</Button></Link>
-               <Button className="btn-D"onClick={() =>deleteProduct(id)}>Delete</Button>
+               <Button className="btn-D"onClick={() =>deleteProduct(product.id)}>Delete</Button>
                
               </Card.Body>
             </div>
@@ -57,4 +62,4 @@ function Cards({deleteProduct}) {
   );
 }
 
-export default Cards;
+export default SearchBarCard;
