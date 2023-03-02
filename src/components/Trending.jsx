@@ -14,14 +14,16 @@ function Trending({ products, deleteProduct }) {
 
       {resultTrending.map(product => {
         return (
-          <div key={product.id} className="card">
-            <Card.Img variant="top" src={product.img} />
+          <div key={product.id} className="card" style={{ width: '18rem' }}>
+            <Card.Img variant="top" className="img-size" src={product.img} />
             <Card.Body>
               <Card.Title>{product.title}</Card.Title>
               <Card.Text>
                 {product.location}
               </Card.Text>
-              <Link to={`/advertisement/${product.id}`}><Button className='btn-ad'>More information</Button></Link>
+              <Link to={`/advertisement/${product.id}`}><Button className='btn-ad' id="btn-edit">More information</Button></Link>
+              <Link to={`editProduct/${product.id}`}><Button className="btn-E" id="btn-edit">✏</Button></Link>
+               <Button className="btn-D" id="btn-edit" onClick={() =>deleteProduct(product.id)}>❌</Button>
             </Card.Body>
           </div>
         )

@@ -8,6 +8,8 @@ import { Link, useLoaderData } from "react-router-dom";
 import { productHandler } from "../handlers/productHandler";
 
 
+
+
 function SearchBarCard() {
  
   const handleSearchChange = (event) => {
@@ -48,10 +50,10 @@ function SearchBarCard() {
                 <Card.Title>{product.price}</Card.Title>
                 <Card.Text>{product.location}</Card.Text>
                 <Link to={`/advertisement/${product.id}`}>
-                  <Button className="btn-ad">More information</Button>
+                  <Button className="btn-ad" id="btn-edit">More information</Button>
                 </Link>
-                <Link to={`editProduct/${product.id}`}><Button className="btn-E">Edit</Button></Link>
-               <Button className="btn-D"onClick={() =>deleteProduct(product.id)}>Delete</Button>
+                <Link to={`editProduct/${product.id}`}><Button className="btn-E" id="btn-edit">✏</Button></Link>
+               <Button  className="btn-D" id="btn-edit" onClick={() =>deleteProduct(product.id)}>❌</Button>
                
               </Card.Body>
             </div>

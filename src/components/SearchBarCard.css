@@ -23,26 +23,32 @@
   height: 16.25rem;
   object-fit: cover;
 }
-/* .card:hover {
-    opacity: 0.8;
+.card:hover {
+    /* opacity: 0.8; */
     cursor: pointer;
     transform: scale(1.1);
-    box-shadow: 0 10 10px rgba(240, 241, 243, 0.3);
-} */
+    box-shadow: 0 10 10px rgba(255, 255, 255, 0.787);
+} 
 
 
-  .btn{
-    background-color: #CBDAD5;
-    color: rgb(11, 11, 11);
-    border-style: none;
+  .btn-ad{
+    background-color: #039C7E;
+    color: white
+    
   }
-  .btn:hover{
+  .btn-ad:hover{
     color: white;
     background-color: #9243e7;
     }
+
+  #btn-edit{
+    margin: .125rem;
+  }
   .btn-E{
     background-color: rgb(112, 174, 83);
+    border-style: none;
   }
   .btn-D{
     background-color: rgb(237, 75, 75);
+    border-style: none;
   }
