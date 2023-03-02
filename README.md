@@ -1,8 +1,8 @@
 🤝 Craft-Market-Place
 
-Craft-Market-Place, your platform of reference to selflessly share skills and services at no cost. Be part of our community, create meaningful connections to help improve society through small actions.
+Welcome to our second-hand handmade items platform. Here you can find a wide variety of unique and special products, created with love and care by talented artisans. We are committed to offering an easy and secure shopping experience so that you can acquire these special items at affordable prices. Join our community of craft lovers and discover unique and meaningful treasures!
 
-Our vision comes from the origin of Meraky 🙌 Do everything with passion and creativity , almost leaving a piece of the soul in it. 🙌
+ 🙌Our vision is to create an online platform that serves as a community marketplace for second-hand handmade items. We strive to promote reuse and recycling through the sale of handmade products, while also supporting talented and creative artisans by providing a space to sell their goods. Additionally, we aim to build a vibrant and positive online community that fosters connection between buyers and sellers, and values creativity, craftsmanship, and sustainability.🙌
 
 💻 Desktop graphic reference
 Craft-Market-Place-figma
@@ -34,10 +34,12 @@ NodeJS.
  Bootstrap to be responsive.
  User experience
  Repository commits related to the task checklist.
+ CRUD: You can create, read, update, and delete products. 
+ Search bar: You can search by location or product title.
 
-ForTheBadge built-with-love
+🌞ForTheBadge built-with-love
 Rocio-Leiva
-
-
-📘Acknowledgements
-CRUD - Funciones Básicas en Base de Datos - Presentación
+AldaraMG
+MargaritaAlvarezGonz
+JenniferCorderoR
+Celestina-Gomez
