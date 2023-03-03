@@ -10,8 +10,8 @@ Craft-Market-Place-figma
 
 🛠️ Tools
 
-Trello
-Figma
+Trello/
+Figma/
 Git / GitHub
 Visual Studio Code
 
@@ -35,12 +35,26 @@ NodeJS.
  Landing page that explains what will you find in our platform and link to the handmade products.
  Second page with all the products.
  Each add with title, image, price, description, user and location.
- Files are properly organized and separated.
+ Files are properly organized and separated with handlers and services architecture.
  Bootstrap to be responsive.
  User experience
  Repository commits related to the task checklist.
  CRUD: You can create, read, update, and delete products. 
- Search bar: You can search by location or product title.
+ Search bar: You can search by price or product title.
+ 
+ 👀 Testing
+
+In the productHandler.test.js test, we have tested the CRUD (Create, Read, Update, Delete) functions of the productService through the productHandler handler. These functions include:
+
+addProduct: which adds a new product to the system.
+loadProducts: which returns a list of all existing products in the system.
+loadProduct: which returns a specific product given its ID.
+updateProduct: which updates an existing product in the system.
+deleteProduct: which deletes a product from the system given its ID.
+To run the test, the following command should be executed on the command line: npm run test.
+
+npm run test
+ 
 
 🌞ForTheBadge built-with-love
 
