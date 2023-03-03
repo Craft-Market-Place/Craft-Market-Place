@@ -22,8 +22,8 @@ function Trending({ products, deleteProduct }) {
                 {product.location}
               </Card.Text>
               <Link to={`/advertisement/${product.id}`}><Button className='btn-ad' id="btn-edit">More information</Button></Link>
-              <Link to={`editProduct/${product.id}`}><Button className="btn-E" id="btn-edit">✏</Button></Link>
-               <Button className="btn-D" id="btn-edit" onClick={() =>deleteProduct(product.id)}>❌</Button>
+              {/* <Link to={`editProduct/${product.id}`}><Button className="btn-E" id="btn-edit">✏</Button></Link>
+               <Button className="btn-D" id="btn-edit" onClick={() =>deleteProduct(product.id)}>❌</Button> */}
             </Card.Body>
           </div>
         )
