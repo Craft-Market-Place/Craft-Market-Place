@@ -7,7 +7,6 @@ import Post from '../pages/Post';
 import NotFound from "../pages/NotFound";
 import Searchbar from "../components/SearchBar/Searchbar"
 import EditProduct from "../pages/EditProduct"
-import DeleteProduct from "../pages/Deleteproduct";
 import SearchBarCard from "../components/SearchBarCard";
 
 
@@ -49,16 +48,7 @@ export const router = createBrowserRouter([
                         element: <EditProduct />,
                         loader: loaderPost, 
                     },
-                    
-                    {
-                        path: "/",
-                        element: <DeleteProduct />,
-                        loader: loaderAdvertisement,
-                    },
-                   
-                    
-                    
-                    
+           
                 ]
             },
          
