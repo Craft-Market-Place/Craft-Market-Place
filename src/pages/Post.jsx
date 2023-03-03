@@ -17,15 +17,19 @@ const Post = () => {
           <h5 className="price"><img src={Price} id="logo-location"/>{post.price}</h5>
           </div>
           <div>
-          <h5 className="description">{post.description}</h5>
-          
+          <h6 className="units">Units available: {post.units}</h6>
           </div>
+          <div>
+          <h5 className="description">{post.description}</h5>
+          </div>
+        
           <h5 className="user">{post.user}</h5>
         
         <p style={{lineHeight: 1}}>{post.body}</p>
         <div className="ads-user">
             <img className="rounded-circle" src={post.user} alt="" />
           <h6> {post.userName}</h6>
+          
         </div>
       </div>
     </div>

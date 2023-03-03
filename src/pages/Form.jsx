@@ -7,6 +7,7 @@ const CreateProduct = () => {
     const [title, setTitle] = useState("");
     const [price, setPrice] = useState(null);
     const [description, setDescription] = useState("");
+    const [units, setUnits] = useState("");
     const [user, setUser] = useState("");
     const [location, setLocation] = useState("");
     const [img, setImg] = useState("");
@@ -22,6 +23,10 @@ const CreateProduct = () => {
         let descriptionInput = event.target.value;
         setDescription(descriptionInput);
     };
+    const handleUnitsChange = (event) => {
+      let unitsInput = event.target.value;
+      setUnits(unitsInput);
+  };
     const handleUserChange = (event) => {
         let userInput = event.target.value;
         setUser(userInput);
@@ -39,7 +44,7 @@ const CreateProduct = () => {
   };
     const handleSubmit = (event) => {
         event.preventDefault();
-        let newProduct = {title, description, price, user, location, img};
+        let newProduct = {title, description, price, user, units, location, img};
         productHandler.addProduct(newProduct);
         event.target.reset()
     };
@@ -64,6 +69,11 @@ const CreateProduct = () => {
     <label htmlFor="user" className="form-label">User</label>
     <input name="user" type="text" className="form-control" required placeholder="What is your name?" onChange={handleUserChange} />
   </div>
+  <div className="mb-3">
+    <label htmlFor="units" className="form-label">Units</label>
+    <input name="units" type="number" min="1" max="25" className="form-control" required placeholder="How many units?" onChange={handleUnitsChange} />
+  </div>
+
   <div className="mb-3">
     <label htmlFor="location" className="form-label">Location</label>
     <input name="location" type="text" className="form-control" required placeholder="Where is your product?" onChange={handleLocationChange} />
