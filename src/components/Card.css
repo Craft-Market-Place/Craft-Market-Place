@@ -1,6 +1,6 @@
 
 
-.cards{
+/* .cards{
 display: flex;
 width: 80vw;
 flex-wrap: wrap;
@@ -28,30 +28,5 @@ margin-left: 15vh;
 .btn-ad:hover{
 color: white;
 background-color: #80C5F6;
-}
-
-@media (max-width: 414px) {
-    .card {
-      width: 150vw;
-      
-    }
-
-    .cards{
-        width: 90vw;
-        margin-left: 2vh;
-
-    }
-  }
-
-  @media (max-width: 375px) {
-    .card {
-      width: 150vw;
-      
-    }
-
-    .cards{
-        width: 90vw;
-        margin-left: 2vh;
-
-    }
-  }
+} 
+ */

@@ -5,7 +5,7 @@ import Nav from 'react-bootstrap/Nav';
 export const Footer = () => {
 
   return (
-    <Nav
+    <Nav className='footer'
       activeKey="/home"
       onSelect={(selectedKey) => alert(`selected ${selectedKey}`)}
     >

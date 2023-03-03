@@ -7,6 +7,7 @@ const Post = () => {
   const { post } = useLoaderData();
 
   return (
+  <section className="general-container">
     <div id="div-post" className="container-ads d-flex">
       <img className="img-fluid " id="img-ad" src={post.img} alt="imagen" />
       <div className="ads p-2" id="container-text">
@@ -29,6 +30,7 @@ const Post = () => {
         </div>
       </div>
     </div>
+  </section>  
   );
 };
 

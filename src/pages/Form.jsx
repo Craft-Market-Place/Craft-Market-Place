@@ -53,31 +53,31 @@ const CreateProduct = () => {
           <h1>What do you want to sell?</h1>
   <div className="mb-3">
     <label htmlFor="title" className="form-label">Title</label>
-    <input name="title" type="text" className="form-control" placeholder="Product name" onChange={handleTitleChange} required/>
+    <input name="title" type="text" className="form-control-1" placeholder="Product name" onChange={handleTitleChange} required/>
   </div>
   <div className="mb-3">
     <label htmlFor="price" className="form-label">Price</label>
-    <input name="price" type="text" className="form-control" placeholder="How much does it cost?" onChange={handlePriceChange} required/>
+    <input name="price" type="text" className="form-control-1" placeholder="How much does it cost?" onChange={handlePriceChange} required/>
   </div>
   <div className="mb-3">
     <label className="form-label" htmlFor="description">Description</label>
-    <input name="description" type="text" className="form-control" id="input-description" required placeholder="Tell us about the product" onChange={handleDescriptionChange}/>
+    <input name="description" type="text" className="form-control-1" id="input-description" required placeholder="Tell us about the product" onChange={handleDescriptionChange}/>
   </div>
   <div className="mb-3">
     <label htmlFor="user" className="form-label">User</label>
-    <input name="user" type="text" className="form-control" required placeholder="What is your name?" onChange={handleUserChange} />
+    <input name="user" type="text" className="form-control-1" required placeholder="What is your name?" onChange={handleUserChange} />
   </div>
   <div className="mb-3">
     <label htmlFor="location" className="form-label">Location</label>
-    <input name="location" type="text" className="form-control" required placeholder="Where is your product?" onChange={handleLocationChange} />
+    <input name="location" type="text" className="form-control-1" required placeholder="Where is your product?" onChange={handleLocationChange} />
   </div>
   <div className="mb-3">
     <label htmlFor="img" className="form-label">Image</label>
-    <input name="img" type="file" className="form-control" placeholder="Upload a picture" onChange={handleImgChange} required/>
+    <input name="img" type="file" className="form-control-1" placeholder="Upload a picture" onChange={handleImgChange} required/>
   </div>
-  <div className='item-count'>
+  {/* <div className='item-count'>
 <ItemCount initial={1} stock={5} onAdd={onAdd} />
-</div>
+</div> */}
   <button type="submit" className="btn btn-primary" id="btn-ad">Submit</button>
 </form>
 </div>
