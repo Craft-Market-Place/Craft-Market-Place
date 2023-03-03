@@ -1,4 +1,4 @@
-/* .searContainer {
+.searContainer {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -6,28 +6,27 @@
   color: black;
   margin-top: 10px;
  
-} */
+} 
 
-/* .searchBarStyle {
+ .searchBarStyle {
   width: 100%;
-} */
-/* 
+} 
+ 
 .listSearchBar {
   text-decoration: none;
   list-style: none;
-} */
-
-/* .linkStyleSearchBar {
+}
+ .linkStyleSearchBar {
   color: black;
   text-decoration: none;
-} */
-/* .linkStyleSearchBar:hover {
+} 
+ .linkStyleSearchBar:hover {
   color: white;
   font-weight: 600;
   cursor: pointer;
-} */
+} 
 
-.searchStyle {
+ .searchStyle {
   background: #CBDAD5;
 
   border-radius: 20px;
@@ -49,4 +48,4 @@ p {
 
 .container-bar{
 display: flex;
-justify-content: center;}
+justify-content: center;} 

@@ -1,4 +1,8 @@
-.footerContainer {
+.footer-text{
+    color:#74522B !important;
+}
+
+/* .footerContainer {
     
     display: flex;
     justify-content: space-around;
@@ -61,4 +65,4 @@
     .socialNetworks{
         height: 0;
     }
-  }
+  } */
