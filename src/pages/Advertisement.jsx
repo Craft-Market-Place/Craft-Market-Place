@@ -1,8 +1,6 @@
 import './Advertisement.css'
 import SearchBarCard from '../components/SearchBarCard'
-import { useLoaderData } from "react-router-dom"
-import { useState } from "react";
-import { productHandler } from "../handlers/productHandler";
+
 
 const Advertisement = () => { 
     
