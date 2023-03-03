@@ -38,7 +38,7 @@ function SearchBarCard() {
         <input
           className="searchStyle"
           type="text"
-          placeholder="🔍 Search by product"
+          placeholder="🔍 Search by product or price"
           value={searchQuery}
           onChange={handleSearchChange}
         />
