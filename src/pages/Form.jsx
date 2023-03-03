@@ -1,7 +1,7 @@
 import "./Form.css"
 import { useState } from 'react';
 import { productHandler } from '../handlers/productHandler';
-import ItemCount from "../components/ItemCount";
+
 
 const CreateProduct = () => {
     const [title, setTitle] = useState("");
@@ -43,10 +43,7 @@ const CreateProduct = () => {
         productHandler.addProduct(newProduct);
         event.target.reset()
     };
-    const onAdd=(quantity)=>{
-      console.log(`Bought ${quantity} units`);
-  
-    }
+    
     return (
       <div className="container-form">
         <form onSubmit={handleSubmit} itemID="form1">
@@ -75,9 +72,7 @@ const CreateProduct = () => {
     <label htmlFor="img" className="form-label">Image</label>
     <input name="img" type="file" className="form-control" placeholder="Upload a picture" onChange={handleImgChange} required/>
   </div>
-  <div className='item-count'>
-<ItemCount initial={1} stock={5} onAdd={onAdd} />
-</div>
+
   <button type="submit" className="btn btn-primary" id="btn-ad">Submit</button>
 </form>
 </div>

@@ -16,13 +16,12 @@ function SearchBarCard() {
   const { products} = useLoaderData();
   const [productsData, setProductsData] = useState(products);
   const [searchQuery, setSearchQuery] = useState("");
-  const data = products.filter(
+  const data = productsData.filter(
     (product) =>
       product.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
       product.location.toLowerCase().includes(searchQuery.toLowerCase())
   );
   const deleteProduct = async (id) => {
-      console.log("hola");
     await productHandler.deleteProduct(id);
     setProductsData(productsData.filter(post => post.id !== id))
 }
