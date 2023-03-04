@@ -22,6 +22,7 @@
   height: 15rem;
   object-fit: cover;
 }
+
 .card:hover {
     opacity: 0.8; 
     cursor: pointer;
@@ -72,31 +73,44 @@
   padding: 7px;
   position: sticky;
   top: .5rem;
-  margin-left: 6.25rem;
+  margin-left: 5rem;
 }
 
 @media (max-width: 414px) {
     .card {
-      width: 150vw;
+      width: 120vw;
+      align-items: center;
       
     }
 
     .cards{
         width: 90vw;
-        margin-left: 2vh;
+        align-items: center;
 
     }
+
+    .card:hover {
+      opacity: 0.8; 
+      cursor: pointer;
+      transform: none;
+      box-shadow: none;
+  } 
   }
 
-  @media (max-width: 375px) {
+  @media (max-width: 395px) {
     .card {
-      width: 150vw;
+      width: 100vw;
       
     }
 
     .cards{
-        width: 90vw;
-        margin-left: 2vh;
+        width: 80vw;
+        
+    }
 
+    .img-size{
+      width: 15.625rem;
+      height: 12.5rem;
+      object-fit: cover;
     }
   }

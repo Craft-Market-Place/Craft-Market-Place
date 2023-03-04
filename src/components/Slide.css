@@ -5,12 +5,12 @@
 
 @media (max-width: 414px) {
     .slide{
-        margin-top: 5vh;
+        margin-top: 0;
     }
   }
 
   @media (max-width: 375px) {
     .slide{
-        margin-top: 5vh;
+        margin-top: 0;
     }
   }

@@ -7,11 +7,16 @@
 
 
 #img-ad{
-    width: 50vw;
+    width: 17.875rem;
+  height: 15rem;
+  object-fit: cover;
+    /* width: 50vw;
     height: 50vh;
+     */
+    border-radius: 2vh;
     margin-top: 4vh;
     margin-left: 4vw;
-    border-radius: 2vh;
+
 }
 
 .container-ad{
