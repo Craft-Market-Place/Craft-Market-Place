@@ -55,6 +55,8 @@
 
 .container-gn{
   background-color: #a7d3f2;
+  color: white;
+  text-align: center;
  
   
 }
@@ -100,16 +102,36 @@
   @media (max-width: 395px) {
     .card {
       width: 100vw;
+     
       
     }
 
     .cards{
         width: 80vw;
-        
+        margin-left: 2.5rem;
     }
 
     .img-size{
-      width: 15.625rem;
+      width: 16.25rem;
+      height: 12.5rem;
+      object-fit: cover;
+    }
+  }
+
+  @media (max-width: 361px) {
+    .card {
+      width: 100vw;
+     
+      
+    }
+
+    .cards{
+        width: 80vw;
+        margin-left: 2.5rem;
+    }
+
+    .img-size{
+      width: 15.3125rem;
       height: 12.5rem;
       object-fit: cover;
     }
