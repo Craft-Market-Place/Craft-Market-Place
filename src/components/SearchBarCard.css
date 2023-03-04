@@ -101,13 +101,18 @@
       transform: none;
       box-shadow: none;
   } 
+
+  .container-bar{
+  
+    margin-right:10vh;
+    align-items: center;
+  }
   }
 
   @media (max-width: 395px) {
     .card {
       width: 100vw;
-     
-      
+           
     }
 
     .cards{
@@ -120,6 +125,14 @@
       height: 12.5rem;
       object-fit: cover;
     }
+
+    .btn-ad{
+      padding-right: 7vh;
+            
+    }
+    
+    
+    
   }
 
   @media (max-width: 361px) {
@@ -138,5 +151,10 @@
       width: 15.3125rem;
       height: 12.5rem;
       object-fit: cover;
+    }
+    .btn-ad{
+      padding-left: 4vh;
+      text-align: center;
+      
     }
   }

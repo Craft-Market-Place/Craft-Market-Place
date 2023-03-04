@@ -31,7 +31,7 @@ function SearchBarCard() {
 
 
   return (
-    <div className="container-gn">
+    <div className="container-gn" id="text">
       <h1>Welcome to your Dahsboard Majealcero</h1>
     <>
       <div className="container-bar">

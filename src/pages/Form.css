@@ -37,7 +37,7 @@ box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
     display: flex;
     justify-content: center;
     background-color: #a7d3f2;
-    opacity: 90%;
+   
     
 }
 
@@ -55,10 +55,14 @@ box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
 #input-description{
 height: 20vh;
 }
-.item-count{
-   padding-left: 31.25rem;
+
+
+@media (max-width: 600px){
+.form-control{
+    width: 40vw;
+    display: flex;
 
 }
 
-
+}
 
