@@ -9,17 +9,19 @@
 
 .card{
   position: relative;
-    width: 25rem;
-    height: 28.75rem;
+    width: 18.125rem;
+    height: 450px;
     margin-top: 2.5rem;
     margin-bottom: 1.25rem;
     margin: 1.25rem;
+    color: #454545;
+    text-align: left;
         
 }
 
 .img-size{
   width: 17.875rem;
-  height: 15rem;
+  height: 16.875rem;
   object-fit: cover;
 }
 
@@ -31,9 +33,11 @@
 } 
 
 
+
   .btn-ad{
     background-color: #039C7E;
-    color: white
+    color: white;
+    margin-top: 0%;
     
   }
   .btn-ad:hover{
