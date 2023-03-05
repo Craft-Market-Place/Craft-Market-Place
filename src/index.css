@@ -2,4 +2,9 @@
 
 .body{
     background-color: #F0CF84;
+    min-height: 100vh;
+   
+    padding-bottom: 1.5em;
+    display: flex;
+    flex-direction: column;
 }

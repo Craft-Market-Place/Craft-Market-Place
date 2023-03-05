@@ -1,12 +1,13 @@
 import "./Form.css"
 import { useState } from 'react';
 import { productHandler } from '../handlers/productHandler';
-import ItemCount from "../components/ItemCount";
+
 
 const CreateProduct = () => {
     const [title, setTitle] = useState("");
     const [price, setPrice] = useState(null);
     const [description, setDescription] = useState("");
+    const [units, setUnits] = useState("");
     const [user, setUser] = useState("");
     const [location, setLocation] = useState("");
     const [img, setImg] = useState("");
@@ -22,6 +23,10 @@ const CreateProduct = () => {
         let descriptionInput = event.target.value;
         setDescription(descriptionInput);
     };
+    const handleUnitsChange = (event) => {
+      let unitsInput = event.target.value;
+      setUnits(unitsInput);
+  };
     const handleUserChange = (event) => {
         let userInput = event.target.value;
         setUser(userInput);
@@ -39,14 +44,11 @@ const CreateProduct = () => {
   };
     const handleSubmit = (event) => {
         event.preventDefault();
-        let newProduct = {title, description, price, user, location, img};
+        let newProduct = {title, description, price, user, units, location, img};
         productHandler.addProduct(newProduct);
         event.target.reset()
     };
-    const onAdd=(quantity)=>{
-      console.log(`Bought ${quantity} units`);
-  
-    }
+    
     return (
       <div className="container-form">
         <form onSubmit={handleSubmit} itemID="form1">
@@ -68,6 +70,11 @@ const CreateProduct = () => {
     <input name="user" type="text" className="form-control" required placeholder="What is your name?" onChange={handleUserChange} />
   </div>
   <div className="mb-3">
+    <label htmlFor="units" className="form-label">Units</label>
+    <input name="units" type="number" min="1" max="25" className="form-control" required placeholder="How many units?" onChange={handleUnitsChange} />
+  </div>
+
+  <div className="mb-3">
     <label htmlFor="location" className="form-label">Location</label>
     <input name="location" type="text" className="form-control" required placeholder="Where is your product?" onChange={handleLocationChange} />
   </div>
@@ -75,9 +82,7 @@ const CreateProduct = () => {
     <label htmlFor="img" className="form-label">Image</label>
     <input name="img" type="file" className="form-control" placeholder="Upload a picture" onChange={handleImgChange} required/>
   </div>
-  <div className='item-count'>
-<ItemCount initial={1} stock={5} onAdd={onAdd} />
-</div>
+
   <button type="submit" className="btn btn-primary" id="btn-ad">Submit</button>
 </form>
 </div>

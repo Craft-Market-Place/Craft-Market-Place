@@ -1,6 +1,6 @@
 import React,{ useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./Card.css";
+// import "./Card.css";
 import "./SearchBarCard.css";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
@@ -31,14 +31,14 @@ function SearchBarCard() {
 
 
   return (
-    <div className="container-gn">
+    <div className="container-gn" id="text">
       <h1>Welcome to your Dahsboard Majealcero</h1>
     <>
       <div className="container-bar">
         <input
           className="searchStyle"
           type="text"
-          placeholder="🔍 Search by product"
+          placeholder="🔍 Search by product or price"
           value={searchQuery}
           onChange={handleSearchChange}
         />

@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 export const Footer = () => {
 
   return (
-    <Nav
+    <Nav className='footer'
       activeKey="/home"
       onSelect={(selectedKey) => alert(`selected ${selectedKey}`)}
     >
