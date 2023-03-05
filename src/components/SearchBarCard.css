@@ -111,17 +111,17 @@
 
   @media (max-width: 395px) {
     .card {
-      width: 100vw;
+      width: 80vw;
            
     }
 
     .cards{
-        width: 80vw;
-        margin-left: 2.5rem;
+        width: 73vw;
+        margin-left: 1.5rem;
     }
 
     .img-size{
-      width: 16.25rem;
+      width: 14.8125rem;
       height: 12.5rem;
       object-fit: cover;
     }
@@ -143,12 +143,12 @@
     }
 
     .cards{
-        width: 80vw;
-        margin-left: 2.5rem;
+        width: 75vw;
+        margin-left: 1.5rem;
     }
 
     .img-size{
-      width: 15.3125rem;
+      width: 14.3125rem;
       height: 12.5rem;
       object-fit: cover;
     }
