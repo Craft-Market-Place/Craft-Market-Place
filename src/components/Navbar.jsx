@@ -10,7 +10,7 @@ import Navbar from 'react-bootstrap/Navbar';
 function Navigation() {
 return (
 
-    <Navbar bg="light"  expand="xl" className='navigation'>
+    <Navbar bg="light"  expand="lg" className='navigation'>
         <Container className='menu'>
         <Navbar.Brand to="/">
           <NavLink to="/"className="navbar-home"><img src={Logo} alt="Craft-Marketplace"className='Logo'/></NavLink>
