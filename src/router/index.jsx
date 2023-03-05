@@ -8,7 +8,7 @@ import NotFound from "../pages/NotFound";
 // import Searchbar from "../components/SearchBar/Searchbar"
 import EditProduct from "../pages/EditProduct"
 import SearchBarCard from "../components/SearchBarCard";
-
+import PrivayPolicyCookies from "../pages/PrivacyPolicyCookies";
 
 export const router = createBrowserRouter([
     { 
@@ -23,6 +23,10 @@ export const router = createBrowserRouter([
                         index: true,
                         element:<Home />, 
                         loader: loaderAdvertisement,
+                    },
+                    {
+                        path: '/PrivacyPolicyCookies',
+                        element: <PrivayPolicyCookies />,
                     },
                     {
                         path: '/form',

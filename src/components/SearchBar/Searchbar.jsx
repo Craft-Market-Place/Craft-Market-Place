@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+// import { useEffect, useState } from "react";
 // import { ResultContainer} from "./ResultContainer"
 // import db from "../../../api/db.json"
 // import "./Searchbarstyle.css"
