@@ -61,12 +61,4 @@ npm run test
 [<img src="https://avatars.githubusercontent.com/u/117834613?v=4" width=115><br><sub>Rocío Leiva</sub>](https://github.com/Rocio-Leiva)|[<img src="https://avatars.githubusercontent.com/u/117835592?v=4" width=115><br><sub> Aldara MG </sub>](https://github.com/AldaraMG)|[<img src="https://avatars.githubusercontent.com/u/118717951?v=4" width=115><br><sub>Margarita Álvarez</sub>](https://github.com/MargaritaAlvarezGonz) |[<img src="https://avatars.githubusercontent.com/u/117833121?v=4" width=115><br><sub>Jennifer Cordero</sub>](https://github.com/JenniferCorderoR) | [<img src="https://avatars.githubusercontent.com/u/117834494?v=4" width=115><br><sub>Celestina Gómez</sub>]([https://github.com/VeronikaKoma](https://github.com/Celestina-Gomez))|
 | :---: | :---: | :---: |  :---: |  :---: | 
 
-Rocio-Leiva
 
-AldaraMG
-
-MargaritaAlvarezGonz
-
-JenniferCorderoR
-
-Celestina-Gomez
