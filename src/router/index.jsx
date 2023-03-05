@@ -9,6 +9,8 @@ import NotFound from "../pages/NotFound";
 import EditProduct from "../pages/EditProduct"
 import DeleteProduct from "../pages/Deleteproduct";
 import SearchBarCard from "../components/SearchBarCard";
+import CookiesPolicy from "../pages/CookiesPolicy";
+import AboutMk from "../pages/AboutMk";
 
 
 export const router = createBrowserRouter([
@@ -55,10 +57,22 @@ export const router = createBrowserRouter([
                         element: <DeleteProduct />,
                         loader: loaderAdvertisement,
                     },
-                   
+
+                    {
+                       path: '/CookiesPolicy',
+                       element:<CookiesPolicy/>
+                       
+                    },
                     
-                    
-                    
+                                      
+                     {
+                        path: '/AboutMk',
+                        element:<AboutMk/>
+            
+                        
+                     },
+
+
                 ]
             },
          

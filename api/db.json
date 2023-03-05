@@ -1,209 +1,94 @@
-{ 
-
-  "products": [ 
-
-    { 
-
-      "id": 1, 
-
-      "title": "Blanket", 
-
-      "price": "40€", 
-
-      "description": "Lovely blanket in white, grey and blue colours handmade in Granny square crochet technique. So soft and cheerful, this baby blanket is perfect to keep your little one cosy in a cot or Moses basket, car seat, pram or buggy.", 
-
-      "units": "1", 
-
-      "user": "Majealcero", 
-
-      "location": "Seville", 
-
-      "img": "https://imagedelivery.net/0ObHXyjKhN5YJrtuYFSvjQ/i-17e0f586-8213-48a4-a46f-93ce50bb8182-Baby-blanket-Blue-handmade-blanket-Baby-boy-shower-gift-New-baby-gift--TashaBeSpoke/display" 
-
-    }, 
-
-    { 
-
-      "id": 2, 
-
-      "title": "Set of cushion covers", 
-
-      "price": "25€", 
-
-      "description": "Handmade vintage fabric cushions. Backed with vintage French linen, with an envelope closure. The fabric was rescued from a pair of curtains and there are matching lampshades and a bed runner to make a complete bedroom set.", 
-
-      "units": "2", 
-
-      "user": "Majealcero", 
-
-      "location": "Seville", 
-
-      "img": "https://imagedelivery.net/0ObHXyjKhN5YJrtuYFSvjQ/i-5f32fa0d-a323-4369-bbe8-2afa77699e94-Handmade-vintage-fabric-cushion-cover-Quilterdown/display" 
-
-    }, 
-
-    { 
-
-      "id": 3, 
-
-      "title": "Doll", 
-
-      "price": "20€", 
-
-      "description": "Handmade crochet doll, fully crocheted with removable clothes and embroidered eyes. This is 'Candy Christmas'. She is filled with toy stuffing and comes from a smoke free home. She comes with her own stand so she can be displayed", 
-
-      "units": "4", 
-
-      "user": "Majealcero", 
-
-      "location": "Seville", 
-
+{
+  "products": [
+    {
+      "id": 2,
+      "title": "Set of cushion covers",
+      "price": "25€",
+      "description": "Handmade vintage fabric cushions. Backed with vintage French linen, with an envelope closure. The fabric was rescued from a pair of curtains and there are matching lampshades and a bed runner to make a complete bedroom set.",
+      "units": "2",
+      "user": "Majealcero",
+      "location": "Seville",
+      "img": "https://imagedelivery.net/0ObHXyjKhN5YJrtuYFSvjQ/i-5f32fa0d-a323-4369-bbe8-2afa77699e94-Handmade-vintage-fabric-cushion-cover-Quilterdown/display"
+    },
+    {
+      "id": 3,
+      "title": "Doll",
+      "price": "20€",
+      "description": "Handmade crochet doll, fully crocheted with removable clothes and embroidered eyes. This is 'Candy Christmas'. She is filled with toy stuffing and comes from a smoke free home. She comes with her own stand so she can be displayed",
+      "units": "4",
+      "user": "Majealcero",
+      "location": "Seville",
       "img": "https://i.etsystatic.com/25737265/r/il/b582ac/4242001821/il_1588xN.4242001821_lnxm.jpg"
-
-    }, 
-
-    { 
-
-      "id": 4, 
-
-      "title": "Dress", 
-
-      "price": "30€", 
-
-      "description": "A bright blue dress splattered by warm raindrops. My handmade pinafore dresses are available in four colours, this is the Royal Blue version which I've added orange and pink raindrops and blue glitter ones too spread around the lower dress. It also has a lined bodice, orange piping round arm and neck and a feature orange zip at the back. The raindrops are added individually so each dress will have a slightly different soaking of raindrops. I've used a medium weight cotton twill so it's nice and strong. Machine washable up to 40 degrees, if you use things called 'irons', you will have to do so on the reverse side of dress.", 
-
-      "units": "4", 
-
-      "user": "Majealcero", 
-
-      "location": "Seville", 
-
-      "img": "https://imagedelivery.net/0ObHXyjKhN5YJrtuYFSvjQ/i-df30520f-8836-40c3-b646-2779f0801277-Pinafore-Dress-Royal-Blue-Ladies-with-pink-orange-and-blue-graphic-raindrop--44ideas/display" 
-
-    }, 
-
-    { 
-
-      "id": 5, 
-
-      "title": "Bag", 
-
-      "price": "15€", 
-
-      "description": "This beautiful tote bag is handmade from a gorgeous soft furnishing fabric which features a palm leaf design and contrasting repurposed ombre denim handles. Made from heavy weight linen type fabric. Strong and useful, I have used French seams which conceal raw edges and are double stitched for strength. Use as a beach bag or everyday bag to carry your books, shopping or crafting projects. The shoulder straps have been double stitched onto the bag and are long enough to carry over the shoulder for easy carrying.The materials used in this bag have been reclaimed and diverted from going to landfill, eco-friendly, pretty and practical.", 
-
-      "units": "3", 
-
-      "user": "Majealcero", 
-
-      "location": "Seville", 
-
-      "img": "https://imagedelivery.net/0ObHXyjKhN5YJrtuYFSvjQ/i-d5f75db8-58d2-4230-8b04-d1c16a1e6f84-Handmade-Tote-Bag-Palm-Leaves--Kath-Heywood-Designs/display" 
-
-    }, 
-
-    { 
-
-      "id": 6, 
-
-      "title": "Jacket", 
-
-      "price": "30€", 
-
-      "description": "Unique handmade crochet jacket in granny squares, this jacket is cosy and on trend at the moment. I love the colours they look fabulous together and I think the coloured edge just finishes the look. It measures chest 110cms (43inches), length 62cms(24.5inches), sleeve length 32cms(12.5inches), sleeve width 54cms(21inches).", 
-
-      "units": "4", 
-
-      "user": "Majealcero", 
-
-      "location": "Seville", 
-
-      "img": "https://imagedelivery.net/0ObHXyjKhN5YJrtuYFSvjQ/i-5222a681-9ace-49f1-bf79-7ec23e529cd0-Handmade-crochet-jacket-in-granny-squares-edging-black-and-peach-172--Crafty-Nanna/display" 
-
-    }, 
-
-    { 
-
-      "id": 7, 
-
-      "title": "Teddy Bear", 
-
-      "price": "12€", 
-
-      "description": "This lovingly handmade 'Hetty' bear has been created using Scottish Harris Tweed wool, hand woven in the Outer Hebrides on the Isle of Harris and sourced from Tarbert. It is stuffed with natural wool filling and finished with metal buttons on the moveable arms and legs", 
-
-      "units": "5", 
-
-      "user": "Majealcero", 
-
-      "location": "Seville", 
-
-      "img": "https://imagedelivery.net/0ObHXyjKhN5YJrtuYFSvjQ/i-de6cd8d4-b4fd-417f-ac0a-8c793559f562-Traditional-Harris-Tweed-Teddy-Bear--Crafty-Vere/display" 
-
-    }, 
-
-    { 
-
-      "id": 8, 
-
-      "title": "Necklace", 
-
-      "price": "15€", 
-
-      "description": "Artisan polymer clay leaves provide the focus for this unusual statement necklace. Every leaf is individually handcrafted making each one unique. Some leaves are gilded in gold and bronze leaf, while others have a subtle hint of gold paint. Every leaf is then sealed with varnish to ensure that the paint and glitter is non-transferable to skin and clothes. Lightweight and easy to wear, this dazzling necklace would look stunning with a little black dress, your own gorgeous skin or anyway you like. You’re in charge. A superb gift for that special someone, especially yourself. Gold plated chain, lobster claw clasp", 
-
-      "units": "6", 
-
-      "user": "Majealcero", 
-
-      "location": "Seville", 
-
-      "img": "https://imagedelivery.net/0ObHXyjKhN5YJrtuYFSvjQ/i-131cb8d3-a3d5-43a3-b929-868ba2e6b3c2-Handmade-Leaf-Necklace-Gold-and-Bronze-Tones-UK-CreatedbyKath/display" 
-
-    }, 
-
-    { 
-
-      "id": 9, 
-
-      "title": "Scarf", 
-
-      "price": "14€", 
-
-      "description": "This scarf has been hand woven on my four shaft loom using 100% wool and is super soft, It has many beautiful shades of berry and forest green colours, it measures 198 cm long plus fringe and 28 cm wide, would go with lots of outfits and will keep you lovely and warm when the weather gets chilly.", 
-
-      "units": "7", 
-
-      "user": "Majealcero", 
-
-      "location": "Seville", 
-
-      "img": "https://imagedelivery.net/0ObHXyjKhN5YJrtuYFSvjQ/i-75c0f1b3-b438-4781-9d93-9f1721226fa9--Scarf-Forest-Shades-hand-woven-scarf-Janice-MacDougall-Art/featureditemlargei" 
-
-    }, 
-
-    { 
-
-      "id": 10, 
-
-      "title": "Baby shoes", 
-
-      "price": "11€", 
-
-      "description": "A pair of pale rose baby shoes, crochet in one piece, and an applique crochet daisy attached. These cute shoes make a perfect new baby or baby shower gift. They are made with stylecraft special dk, which is 100% acrylic yarn.", 
-
-      "units": "5", 
-
-      "user": "Majealcero", 
-
-      "location": "Seville", 
-
-      "img": "https://imagedelivery.net/0ObHXyjKhN5YJrtuYFSvjQ/i-4694bd76-3ae7-486b-bc27-bfda709cd1ae-crochet-daisy-baby-slipper-shoes-in-pale-rose-sizes-newborn-up-to-2-years-crochet-and-i-handmade/display" 
-
-    } 
-
-  ] 
-
-} 
-
- 
+    },
+    {
+      "id": 4,
+      "title": "Dress",
+      "price": "30€",
+      "description": "A bright blue dress splattered by warm raindrops. My handmade pinafore dresses are available in four colours, this is the Royal Blue version which I've added orange and pink raindrops and blue glitter ones too spread around the lower dress. It also has a lined bodice, orange piping round arm and neck and a feature orange zip at the back. The raindrops are added individually so each dress will have a slightly different soaking of raindrops. I've used a medium weight cotton twill so it's nice and strong. Machine washable up to 40 degrees, if you use things called 'irons', you will have to do so on the reverse side of dress.",
+      "units": "4",
+      "user": "Majealcero",
+      "location": "Seville",
+      "img": "https://imagedelivery.net/0ObHXyjKhN5YJrtuYFSvjQ/i-df30520f-8836-40c3-b646-2779f0801277-Pinafore-Dress-Royal-Blue-Ladies-with-pink-orange-and-blue-graphic-raindrop--44ideas/display"
+    },
+    {
+      "id": 5,
+      "title": "Bag",
+      "price": "15€",
+      "description": "This beautiful tote bag is handmade from a gorgeous soft furnishing fabric which features a palm leaf design and contrasting repurposed ombre denim handles. Made from heavy weight linen type fabric. Strong and useful, I have used French seams which conceal raw edges and are double stitched for strength. Use as a beach bag or everyday bag to carry your books, shopping or crafting projects. The shoulder straps have been double stitched onto the bag and are long enough to carry over the shoulder for easy carrying.The materials used in this bag have been reclaimed and diverted from going to landfill, eco-friendly, pretty and practical.",
+      "units": "3",
+      "user": "Majealcero",
+      "location": "Seville",
+      "img": "https://imagedelivery.net/0ObHXyjKhN5YJrtuYFSvjQ/i-d5f75db8-58d2-4230-8b04-d1c16a1e6f84-Handmade-Tote-Bag-Palm-Leaves--Kath-Heywood-Designs/display"
+    },
+    {
+      "id": 6,
+      "title": "Jacket",
+      "price": "30€",
+      "description": "Unique handmade crochet jacket in granny squares, this jacket is cosy and on trend at the moment. I love the colours they look fabulous together and I think the coloured edge just finishes the look. It measures chest 110cms (43inches), length 62cms(24.5inches), sleeve length 32cms(12.5inches), sleeve width 54cms(21inches).",
+      "units": "4",
+      "user": "Majealcero",
+      "location": "Seville",
+      "img": "https://imagedelivery.net/0ObHXyjKhN5YJrtuYFSvjQ/i-5222a681-9ace-49f1-bf79-7ec23e529cd0-Handmade-crochet-jacket-in-granny-squares-edging-black-and-peach-172--Crafty-Nanna/display"
+    },
+    {
+      "id": 7,
+      "title": "Teddy Bear",
+      "price": "12€",
+      "description": "This lovingly handmade 'Hetty' bear has been created using Scottish Harris Tweed wool, hand woven in the Outer Hebrides on the Isle of Harris and sourced from Tarbert. It is stuffed with natural wool filling and finished with metal buttons on the moveable arms and legs",
+      "units": "5",
+      "user": "Majealcero",
+      "location": "Seville",
+      "img": "https://imagedelivery.net/0ObHXyjKhN5YJrtuYFSvjQ/i-de6cd8d4-b4fd-417f-ac0a-8c793559f562-Traditional-Harris-Tweed-Teddy-Bear--Crafty-Vere/display"
+    },
+    {
+      "id": 8,
+      "title": "Necklace",
+      "price": "15€",
+      "description": "Artisan polymer clay leaves provide the focus for this unusual statement necklace. Every leaf is individually handcrafted making each one unique. Some leaves are gilded in gold and bronze leaf, while others have a subtle hint of gold paint. Every leaf is then sealed with varnish to ensure that the paint and glitter is non-transferable to skin and clothes. Lightweight and easy to wear, this dazzling necklace would look stunning with a little black dress, your own gorgeous skin or anyway you like. You’re in charge. A superb gift for that special someone, especially yourself. Gold plated chain, lobster claw clasp",
+      "units": "6",
+      "user": "Majealcero",
+      "location": "Seville",
+      "img": "https://imagedelivery.net/0ObHXyjKhN5YJrtuYFSvjQ/i-131cb8d3-a3d5-43a3-b929-868ba2e6b3c2-Handmade-Leaf-Necklace-Gold-and-Bronze-Tones-UK-CreatedbyKath/display"
+    },
+    {
+      "id": 9,
+      "title": "Scarf",
+      "price": "14€",
+      "description": "This scarf has been hand woven on my four shaft loom using 100% wool and is super soft, It has many beautiful shades of berry and forest green colours, it measures 198 cm long plus fringe and 28 cm wide, would go with lots of outfits and will keep you lovely and warm when the weather gets chilly.",
+      "units": "7",
+      "user": "Majealcero",
+      "location": "Seville",
+      "img": "https://imagedelivery.net/0ObHXyjKhN5YJrtuYFSvjQ/i-75c0f1b3-b438-4781-9d93-9f1721226fa9--Scarf-Forest-Shades-hand-woven-scarf-Janice-MacDougall-Art/featureditemlargei"
+    },
+    {
+      "id": 10,
+      "title": "Baby shoes",
+      "price": "11€",
+      "description": "A pair of pale rose baby shoes, crochet in one piece, and an applique crochet daisy attached. These cute shoes make a perfect new baby or baby shower gift. They are made with stylecraft special dk, which is 100% acrylic yarn.",
+      "units": "5",
+      "user": "Majealcero",
+      "location": "Seville",
+      "img": "https://imagedelivery.net/0ObHXyjKhN5YJrtuYFSvjQ/i-4694bd76-3ae7-486b-bc27-bfda709cd1ae-crochet-daisy-baby-slipper-shoes-in-pale-rose-sizes-newborn-up-to-2-years-crochet-and-i-handmade/display"
+    }
+  ]
+}
