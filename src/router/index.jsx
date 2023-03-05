@@ -5,7 +5,7 @@ import Home from '../pages/Home';
 import Form from '../pages/Form';
 import Post from '../pages/Post';
 import NotFound from "../pages/NotFound";
-import Searchbar from "../components/SearchBar/Searchbar"
+// import Searchbar from "../components/SearchBar/Searchbar"
 import EditProduct from "../pages/EditProduct"
 import SearchBarCard from "../components/SearchBarCard";
 
@@ -38,11 +38,11 @@ export const router = createBrowserRouter([
                         element: <Post />,
                         loader: loaderPost
                     }, 
-                    {
-                        path: '/searchbar',
-                        element: <Searchbar />,
-                        loader: loaderPost,
-                    },                     
+                    // {
+                    //     path: '/searchbar',
+                    //     element: <Searchbar />,
+                    //     loader: loaderPost,
+                    // },                     
                     {
                         path: "advertisement/editProduct/:id",
                         element: <EditProduct />,
