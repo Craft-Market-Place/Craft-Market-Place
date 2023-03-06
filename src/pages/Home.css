@@ -1,37 +1,14 @@
-.section-container { 
-    height: 80vh; 
-    width: 200vw;
-    background-image: url(../../public/Vintaje.png); 
-    font-weight: bold; 
-    background-size: cover;
+.title{
+    margin-top: .3125rem; 
+    color: #74522B;
 }
 
-.bloque {
-    text-align: center;
-    color: rgb(247, 241, 241); 
-    padding: 1.25rem; 
-    font-size: 1.5625rem; 
-    grid-column: 1/5; 
-    font-family: pitch, courier new, Courier, lucida sans typewriter, lucida typewriter, monospace;
-    
-}
-carousel slide
-
-.img-fluid{
-width: 450px;
+.anuncios{
+    background-color: #a7d3f2;
+    opacity: 90%;
 
 }
-  
-.carousel-inner{
-height: 480px;
-display: flex;
-justify-content:center;
-padding-right: 650px;
 
-    
+p{
+    line-height: 3vh;
 }
-  
-
- 
-
-

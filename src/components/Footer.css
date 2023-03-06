@@ -1,18 +1,33 @@
-
-.footer-container{
-    height: 8vh;
-    display: flex;
-    justify-content: space-around;
-    background-color: #F0CF84;
-    font-family: pitch, courier new, Courier, lucida sans typewriter, lucida typewriter, monospace;
-    color: rgba(148, 85, 58, 0.87);   
+.footer-text{
+    color:#74522B !important;
+    font-size: 1.125rem;
+    margin-left: 1.875rem;
+    text-decoration: none;
+   
+    
 }
-h5{
-    margin-top: 1.25rem;
 
+.footer{
+    
+    margin-top: 1vh;
 }
-.footer-About{
-    margin-top: 1.25rem;
-    color: rgba(148, 85, 58, 0.87); 
 
+.socialmedia {
+    width: 1.5625rem; 
+    margin-left: .625rem;
+    
+        
+}
+
+@media (max-width: 420px) {
+    .socialmedia {
+        width: 1.5625rem; 
+        margin-left: .125rem;
+}
+.footer-text{
+    color:#74522B !important;
+    font-size: 1.125rem;
+    margin-left: .4375rem;
+    text-decoration: none;
+}
 }

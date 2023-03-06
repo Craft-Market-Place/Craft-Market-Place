@@ -1,0 +1,18 @@
+.text-container-about{
+    background-color: #a7d3f2;
+    color: #3F3F40;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+#title-about{
+    text-align: center;
+    padding-top: 3vh;
+}
+
+.text-about{
+    padding-top: 2vh;
+    padding-left: 5vh;
+    padding-right: 5vh;
+}

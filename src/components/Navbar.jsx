@@ -1,21 +1,36 @@
-import { NavLink } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 import "./Navbar.css"
-import Logo from '../../public/craft4.png'
+import Logo from '../assets/Logo.png';
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
 
-const Navbar = () => {
-    return (
-        <nav className="nav-container" >
-            <div className="navbar">
-                <img className="logo-Craft" src={Logo} alt="LogoCraft"></img>
-                <NavLink to="/" className="navbar-home">Home</NavLink>
-                <NavLink to="/login" className="navbar-Products">Upload Products</NavLink>
-                <NavLink to="/profile" className="navbar-DashBoard">DashBoard</NavLink>
-                <h1 className="navbar-Cart"> 🛒</h1>
-            
-            </div>
-            
-        </nav>
-    );
-};
 
-export default Navbar;
+
+function Navigation() {
+return (
+
+    <Navbar bg="light"  expand="lg" className='navigation'>
+        <Container className='menu'>
+        <Navbar.Brand to="/">
+          <NavLink to="/"className="navbar-home"><img src={Logo} alt="Craft-Marketplace"className='Logo'/></NavLink>
+        </Navbar.Brand>  
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">  
+          <Nav className="">
+            <NavLink  to='/' className='text-navbar' href="#home">HOME</NavLink>
+                
+            <NavLink className='text-navbar' to="/form" href="#Post">UPLOAD PRODUCT</NavLink>
+                
+            <NavLink className='text-navbar' to="/advertisement" href="#form">DASHBOARD </NavLink>
+                
+          </Nav>
+          </Navbar.Collapse>
+        </Container>
+      </Navbar>
+    
+    
+);
+}
+
+export default Navigation;

@@ -3,8 +3,6 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
 
-
-
 import "./LayoutPublic.css"
 
 
@@ -14,19 +12,16 @@ const LayoutPublic = () => {
 
     return (
         <>
-            <Navbar />
-
-           
-           <main className="container">
-           
-            {navigation.state === "loading" && (
-                <div className="alert alert-info my-S">Loading...</div>
-            )}  
-                <Outlet />
-            </main> 
-           
+        <Navbar/>
+        
+        <main>
+           {navigation.state === "loading" && (
+               <div className="alert alert-info my-S">Loading...</div>
+           )}  
+               <Outlet />
+           </main> 
              <Footer/>
-                 
+        
         </>
     );
 };

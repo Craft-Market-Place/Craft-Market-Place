@@ -2,11 +2,14 @@ import { createBrowserRouter } from "react-router-dom";
 import { productHandler } from "../handlers/productHandler";
 import LayoutPublic from "../layout/LayoutPublic";
 import Home from '../pages/Home';
-import Login from '../pages/Login';
-import Profile from '../pages/Profile';
+import Form from '../pages/Form';
 import Post from '../pages/Post';
 import NotFound from "../pages/NotFound";
-import Aboutcraft from "../pages/Aboutcraft";
+import EditProduct from "../pages/EditProduct"
+import SearchBarCard from "../components/SearchBarCard";
+import CookiesPolicy from "../pages/CookiesPolicy";
+import AboutMk from "../pages/AboutMk";
+
 
 export const router = createBrowserRouter([
     { 
@@ -19,27 +22,46 @@ export const router = createBrowserRouter([
                 children: [
                     {
                         index: true,
-                        element: <Home />, 
+                        element:<Home />, 
+                        loader: loaderAdvertisement,
                     },
                     {
-                        path: '/login',
-                        element: <Login />,
+                        path: '/form',
+                        element: <Form />,
                     },
                     {
-                        path: '/profile',
-                        element: <Profile />,
-                        loader: loaderProfile,
+                        path: '/advertisement',
+                        element: <SearchBarCard />,
+                        loader: loaderAdvertisement,
                     },    
                     {
-                        path: '/profile/:id',
+                        path: '/advertisement/:id',
                         element: <Post />,
                         loader: loaderPost
                     }, 
+                                      
                     {
-                        path: '/aboutcraft',
-                        element: <Aboutcraft />,
+                        path: "advertisement/editProduct/:id",
+                        element: <EditProduct />,
+                        loader: loaderPost, 
+                    },
+                    
+                    
+                    {
+                       path: '/CookiesPolicy',
+                       element:<CookiesPolicy/>
+                       
+                    },
+                    
+                                      
+                     {
+                        path: '/AboutMk',
+                        element:<AboutMk/>
+            
                         
-                    }, 
+                     },
+
+
                 ]
             },
          
@@ -52,8 +74,8 @@ async function loaderPost  ({ params })  {
     return { post };
 };
 
-async function loaderProfile () {
- const posts = await productHandler.loadProducts()
-    console.log (posts)
-    return { posts };
+async function loaderAdvertisement () {
+ const products = await productHandler.loadProducts()
+    return { products };
  };
+

@@ -1,0 +1,160 @@
+.cards{
+  display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;   
+    
+}
+
+.card{
+  position: relative;
+    width: 18.125rem;
+    height: 450px;
+    margin-top: 2.5rem;
+    margin-bottom: 1.25rem;
+    margin: 1.25rem;
+    color: #454545;
+    text-align: left;
+        
+}
+
+.img-size{
+  width: 17.875rem;
+  height: 16.875rem;
+  object-fit: cover;
+}
+
+.card:hover {
+    opacity: 0.8; 
+    cursor: pointer;
+    transform: scale(1.1);
+    box-shadow: 0 10 10px rgba(255, 255, 255, 0.787);
+} 
+
+
+
+  .btn-ad{
+    background-color: #039C7E;
+    color: white;
+    margin-top: 0%;
+    
+  }
+  .btn-ad:hover{
+    color: white;
+    background-color: #9243e7;
+    }
+
+  #btn-edit{
+    margin: .0938rem;
+  }
+  .btn-E{
+    background-color: rgb(112, 174, 83);
+    border-style: none;
+  }
+  .btn-D{
+    background-color: rgb(237, 75, 75);
+    border-style: none;
+  }
+
+.container-gn{
+  background-color: #a7d3f2;
+  color: white;
+  text-align: center;
+ 
+  
+}
+
+.container-bar{
+  
+  margin-bottom: .625rem;
+  align-items: center;
+}
+
+.searchStyle{
+  border-radius: 20px;
+  border: 0;
+  width: 50vw;
+  color: black;
+  padding: 7px;
+  position: sticky;
+  top: .5rem;
+  margin-left: 5rem;
+}
+
+@media (max-width: 414px) {
+    .card {
+      width: 120vw;
+      align-items: center;
+      
+    }
+
+    .cards{
+        width: 90vw;
+        align-items: center;
+
+    }
+
+    .card:hover {
+      opacity: 0.8; 
+      cursor: pointer;
+      transform: none;
+      box-shadow: none;
+  } 
+
+  .container-bar{
+  
+    margin-right:10vh;
+    align-items: center;
+  }
+  }
+
+  @media (max-width: 395px) {
+    .card {
+      width: 80vw;
+           
+    }
+
+    .cards{
+        width: 73vw;
+        margin-left: 1.5rem;
+    }
+
+    .img-size{
+      width: 14.8125rem;
+      height: 12.5rem;
+      object-fit: cover;
+    }
+
+    .btn-ad{
+      padding-right: 7vh;
+            
+    }
+    
+    
+    
+  }
+
+  @media (max-width: 361px) {
+    .card {
+      width: 100vw;
+     
+      
+    }
+
+    .cards{
+        width: 75vw;
+        margin-left: 1.5rem;
+    }
+
+    .img-size{
+      width: 14.3125rem;
+      height: 12.5rem;
+      object-fit: cover;
+    }
+    .btn-ad{
+      padding-left: 4vh;
+      text-align: center;
+      
+    }
+  }
