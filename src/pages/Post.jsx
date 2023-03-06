@@ -16,21 +16,7 @@ const Post = () => {
         <div className="ad-title d-flex justify-content-between">
           <h3><img src={Location} id="logo-location"/>{post.location}</h3>
           <h3 className="price"><img src={Price} id="price1"/>{post.price}</h3>
-          </div>
-          {/* <div>
-          <h6 className="units">Units available: {post.units}</h6>
-          </div> */}
-          {/* <div>
-          <h5 className="description">{post.description}</h5>
-          </div> */}
-        
-          {/* <h5 className="user">{post.user}</h5> */}
-        
-        {/* <p style={{lineHeight: 1}}>{post.body}</p>
-        <div className="ads-user">
-            <img className="rounded-circle" src={post.user} alt="" />
-          <h6> {post.userName}</h6> */}
-          
+          </div>            
         
           <h5 className="description">{post.description}</h5>
           <h3 className="units">Units available: {post.units}</h3>
