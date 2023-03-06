@@ -10,7 +10,7 @@ Craft-Market-Place-figma
 
 🛠️ Tools
 
-Trello: https://trello.com/b/FJRCMeE2/craft-market-place
+Trello: https://trello.com/b/FJRCMeE2/craft-market-place /
 Figma/
 Git / GitHub
 Visual Studio Code
