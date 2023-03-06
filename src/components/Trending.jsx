@@ -1,7 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import './Card.css';
+
 import { Link } from 'react-router-dom';
 
 function Trending({ products, deleteProduct }) {
@@ -14,14 +14,15 @@ function Trending({ products, deleteProduct }) {
 
       {resultTrending.map(product => {
         return (
-          <div key={product.id} className="card">
-            <Card.Img variant="top" src={product.img} />
+          <div key={product.id} className="card" style={{ width: '18rem' }}>
+            <Card.Img variant="top" className="img-size" src={product.img} />
             <Card.Body>
               <Card.Title>{product.title}</Card.Title>
               <Card.Text>
                 {product.location}
               </Card.Text>
-              <Link to={`/advertisement/${product.id}`}><Button className='btn-ad'>More information</Button></Link>
+              <Link to={`/advertisement/${product.id}`}><Button className='btn-ad' id="btn-edit">More information</Button></Link>
+              
             </Card.Body>
           </div>
         )

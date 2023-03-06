@@ -1,6 +1,5 @@
-
 form{
-    background-color: #5AA386 !important;
+    background-color: #039C7E !important;
     width: 60vw;
     align-items: center;
     justify-content: center;
@@ -10,6 +9,17 @@ form{
     color: white;
 }
 
+.form-control-1{
+background-color: white;
+border-radius: 1.25rem;
+  border: 0;
+  width: 40vw;
+  color: black;
+  padding: .3125rem;
+  position: sticky;
+  top: .3125rem;
+  margin-left: .5rem;
+}
 
 
 #btn-ad{
@@ -27,20 +37,28 @@ box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
     display: flex;
     justify-content: center;
     background-color: #a7d3f2;
-    opacity: 90%;
+   
     
 }
 
 .form-control{
     width: 50vw;
+    display: flex;
 
 }
+
 
 #input-description{
 height: 20vh;
 }
-.item-count{
-   padding-left: 31.25rem;
+
+
+@media (max-width: 600px){
+.form-control{
+    width: 40vw;
+    display: flex;
+
+}
 
 }
 

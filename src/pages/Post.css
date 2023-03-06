@@ -1,21 +1,31 @@
+.general-container{
+   background-color:#a7d3f2;
+   display: flex;
+   min-height: 100vh;
+   
+   
+}
+
+
 #img-ad{
-    width: 50vw;
-    height: 50vh;
+    width: 17.875rem;
+    height: 15rem;
+    object-fit: cover;
+    border-radius: 2vh;
     margin-top: 4vh;
     margin-left: 4vw;
-    border-radius: 2vh;
+    
 }
-#container-text{
-    margin-top: -12vh;
-}
-h1, 
+
+ 
 .form-label{
-  text-align: center;
+    text-align: center;
     color: #f4f3f2;
 }
 
 #logo-location{
     margin-right: 2vh ;
+    
 }
 
 .description{
@@ -23,29 +33,269 @@ h1,
     margin-left: 2vh;
     text-align: justify;
     margin-right: 2vh;
+    
 }
 
+
+.units{
+    margin-top: 3vh;
+    margin-left: 2vh;
+    text-align: justify;
+    margin-right: 2vh;
+    
+}
 
 .user{
     margin-top: 3vh;
     margin-left: 2vh;
+    
 
 }
 
 .title-ad{
-    margin-top: 14.8vh;
+    margin-top: 4vh;
     border-radius: 1vh;
     padding-left: 1.5vh;
+    
 }
 
-#div-post{
-    
-    background-color: #a7d3f2 !important;
-    
-
-}
 
 .price{
     margin-right: 2vh;
 }
 
+
+
+@media (max-width: 600px) {
+        
+    .general-container{
+       
+        display: flex;
+        min-height: 100vh;
+              
+        
+     }
+
+        #div-post {
+       
+        display: flex;
+        min-height: 68.75rem;
+        min-width: 48vh;
+        
+   }
+
+       #img-ad{
+        width: 17.875rem;
+        height: 15rem;
+        object-fit: cover;
+        border-radius: 2vh;
+        margin-top: 4vh;
+        margin-left: 3.125rem;
+        
+        position: absolute;
+    }
+
+    .title-ad{
+        position: absolute;
+        margin-top: 36vh;
+        border-radius: 1vh;
+        padding-left: 1.5vh;
+        
+    }
+
+    #logo-location{
+        visibility: hidden; 
+        
+    }
+
+    .ad-title{
+        position: absolute;
+        margin-top: 42vh;
+        margin-left: 0vh;
+                
+   }
+
+   .price{
+    position: absolute;
+    margin-top: 7vh;
+   }
+   .units{
+    position: absolute;
+    margin-top: 56vh;
+    margin-left: 0vh;
+    }
+    
+    .user{
+        position: absolute;
+        margin-top: 63vh;
+        margin-left: 0vh;
+
+    }
+
+    .description{
+    position: absolute;
+    margin-top: 70vh;
+    margin-left: 1vh;
+    text-align: justify;
+    margin-right: 4vh;
+    
+}
+ 
+  }
+
+  @media (max-width: 420px) {
+        
+    .general-container{
+       
+        display: flex;
+        min-height: 100vh;
+              
+        
+     }
+
+        #div-post {
+       
+        display: flex;
+        min-height: 68.75rem;
+        min-width: 40vh;
+        
+   }
+
+       #img-ad{
+        width: 16.875rem;
+        height: 15rem;
+        object-fit: cover;
+        border-radius: 2vh;
+        margin-top: 4vh;
+        margin-left: 2;
+        
+        position: absolute;
+    }
+
+    .title-ad{
+        position: absolute;
+        margin-top: 36vh;
+        border-radius: 1vh;
+        padding-left: 1.5vh;
+        
+    }
+
+    #logo-location{
+        visibility: hidden; 
+        
+    }
+
+    .ad-title{
+        position: absolute;
+        margin-top: 42vh;
+        margin-left: 0vh;
+                
+   }
+
+   .price{
+    position: absolute;
+    margin-top: 7vh;
+   }
+   .units{
+    position: absolute;
+    margin-top: 56vh;
+    margin-left: 0vh;
+    }
+    
+    .user{
+        position: absolute;
+        margin-top: 63vh;
+        margin-left: 0vh;
+
+    }
+
+    .description{
+    position: absolute;
+    margin-top: 70vh;
+    margin-left: 1vh;
+    text-align: justify;
+    margin-right: 4vh;
+    margin-bottom: 2vh;
+    
+}
+ 
+  }
+
+
+  @media (max-width: 390px) {
+        
+    .general-container{
+       
+        display: flex;
+        min-height: 100vh;
+              
+        
+     }
+
+        #div-post {
+       
+        display: flex;
+        min-height: 68.75rem;
+        min-width: 39vh;
+        
+   }
+
+       #img-ad{
+        width: 16.25rem;
+        height: 15rem;
+        object-fit: cover;
+        border-radius: 2vh;
+        margin-top: 4vh;
+        margin-left: 2rem;
+        
+        position: absolute;
+    }
+
+    .title-ad{
+        position: absolute;
+        margin-top: 36vh;
+        border-radius: 1vh;
+        padding-left: 1.5vh;
+        
+    }
+
+    #logo-location{
+        visibility: hidden; 
+        
+    }
+
+    .ad-title{
+        position: absolute;
+        margin-top: 42vh;
+        margin-left: 0vh;
+                
+   }
+
+   .price{
+    position: absolute;
+    margin-top: 7vh;
+   }
+   .units{
+    position: absolute;
+    margin-top: 56vh;
+    margin-left: 0vh;
+    }
+    
+    .user{
+        position: absolute;
+        margin-top: 63vh;
+        margin-left: 0vh;
+
+    }
+
+    .description{
+    position: absolute;
+    margin-top: 70vh;
+    margin-left: 1vh;
+    text-align: justify;
+    margin-right: 4vh;
+    
+    
+}
+ 
+  }

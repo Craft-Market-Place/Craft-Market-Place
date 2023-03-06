@@ -6,12 +6,14 @@
 .navigation{
   background-color: #F0CF84 !important;
   
+  
 }
 
 .text-navbar{
   color: #74522B !important;
   margin-inline-start: .3125rem;
   margin-left: 20vh;
+  text-decoration: none;
 }
 
 #responsive-navbar-nav{
