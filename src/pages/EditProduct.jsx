@@ -8,7 +8,7 @@ function EditProduct() {
     const id = post.id;
     const [title, setTitle] = useState(post.title);
     const [price, setPrice] = useState(post.price);
-    const [units, setUnits] = useState("");
+    const [units, setUnits] = useState(post.units);
     const [description, setDescription] = useState(post.description);
     const [user, setUser] = useState(post.user);
     const [location, setLocation] = useState(post.location);
@@ -88,7 +88,7 @@ function EditProduct() {
                     </div>
                     <div className="mb-3">
                         <label htmlFor="units" className="form-label">Units</label>
-                        <input name="units" type="number" className="form-control" required placeholder="How many units?" onChange={handleUnitsChange} />
+                        <input name="units" type="number" className="form-control" placeholder={post.units} onChange={handleUnitsChange} />
                     </div>
 
                     <div className="mb-3">
