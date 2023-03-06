@@ -1,88 +1,33 @@
 .footer-text{
     color:#74522B !important;
+    font-size: 1.125rem;
+    margin-left: 1.875rem;
+    text-decoration: none;
+   
+    
 }
 
 .footer{
     
-    margin-top: auto;
+    margin-top: 1vh;
 }
-/* .footerContainer {
+
+.socialmedia {
+    width: 1.5625rem; 
+    margin-left: .625rem;
     
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #F0CF84 !important;
-    width: 100%;
-    height: 6vh;
-    position:relative;
-    bottom: 0;
-}
-
-/* Estilos para pantallas medianas */
-@media only screen and (max-width: 768px) {
-  .footerContainer {
-    flex-direction: column;
-    justify-content: center;
-    height: 10vh;
-  }
-}
-
-/* Estilos para pantallas pequeñas */
-@media only screen and (max-width: 480px) {
-  .footerContainer {
-    height: auto;
-    padding: 20px 0;
-  }
-}
-
-
-.footerText {
-    font-family: 'Inder', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 2vh;
-    line-height: 38px;
-    color: rgba(116, 82, 43, 1);
-}
-
-.socialNetworks {
-    width: 1.5vw;
-    height: 3.5vh;
-    opacity: 50%;
-    margin-left: 3vh;
-    margin-right: 3vh;
-
-}
-
-@media (min-width: 414px) {
-    .footerContainer{
-        height: 15vh;
         
-    }
+}
 
-    .socialNetworks{
-        height: 0;
-    }
-  }
-
-  @media (min-width: 375px) {
-    .footerContainer{
-        height: 15vh;
-        
-    }
-
-    .socialNetworks{
-        height: 0;
-    }
-  }
-  
-  @media (min-width: 360px) {
-    .footerContainer{
-        height: 15vh;
-        
-    }
-
-    .socialNetworks{
-        height: 0;
-    }
-  } 
+@media (max-width: 420px) {
+    .socialmedia {
+        width: 1.5625rem; 
+        margin-left: .125rem;
+}
+.footer-text{
+    color:#74522B !important;
+    font-size: 1.125rem;
+    margin-left: .4375rem;
+    text-decoration: none;
+}
+}

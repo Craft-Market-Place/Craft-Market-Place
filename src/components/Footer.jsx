@@ -1,9 +1,15 @@
 import React from 'react'
 import "./Footer.css"
 import Nav from 'react-bootstrap/Nav';
-import { Link } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom'
+import facebook from '../assets/facebook.png'
+import instagram from '../assets/instagram.png'
+import twitter from '../assets/twitter.png'
 
-export const Footer = () => {
+// import Navbar from 'react-bootstrap/Navbar';
+
+
+function Footer ()  {
 
   return (
     <Nav className='footer'
@@ -11,36 +17,29 @@ export const Footer = () => {
       onSelect={(selectedKey) => alert(`selected ${selectedKey}`)}
     >
       <Nav.Item >
-        <Nav.Link className='footer-text' href="/home">© Craft Marketplace 2023 Spain S.L. Free bulletin board</Nav.Link>
+        <NavLink className='footer-text' to='/'>© Craft Marketplace 2023 Spain S.L.</NavLink>
       </Nav.Item>
       <Nav.Item>
-      <Link to= {'PrivacyPolicyCookies'}><Nav.Link className='footer-text' eventKey="link-1">Privacy Policy Cookies</Nav.Link>
-      </Link> 
+        <NavLink className='footer-text' to='/CookiesPolicy' href="#CookiesPolicy">Privacy Policy Cookies</NavLink>
       </Nav.Item>
       <Nav.Item>
-        <Nav.Link  className='footer-text' eventKey="link-2"  >Terms & Conditions </Nav.Link>
-       
-      </Nav.Item>
+        <NavLink  className='footer-text' to='/AboutMk' href="#AboutMk"> About Craft Marketplace</NavLink>
+      </Nav.Item> 
+      
+       <Nav.Item>
+        <NavLink className='footer-text' eventKey="disabled" disabled> <img src={facebook} alt="Craft-Marketplace"className='socialmedia'/>       
+        </NavLink>
+      </Nav.Item> 
       <Nav.Item>
-        <Nav.Link className='footer-text' eventKey="disabled" disabled>
-          About Craft
-        </Nav.Link>
-      </Nav.Item>
+        <NavLink className='footer-text' eventKey="disabled" disabled> <img src={instagram} alt="Craft-Marketplace"className='socialmedia'/>       
+        </NavLink>
+      </Nav.Item> 
+      <Nav.Item>
+        <NavLink className='footer-text' eventKey="disabled" disabled> <img src={twitter} alt="Craft-Marketplace"className='socialmedia'/>       
+        </NavLink>
+      </Nav.Item> 
     </Nav>
-
-)
+  
+ );
 }
-export default Footer
-
-  //   <footer>
-  //     <div className="footerContainer">
-  //       <h5 className= "footerText">© Craft Marketplace 2023 Spain S.L. Free bulletin board</h5>
-  //       <h5 className= "footerText">Legal</h5>
-  //       <h5 className= "footerText">Cookie Settings</h5>
-  //       <h5 className= "footerText">Terms & Conditions</h5>
-  //       <h5 className= "footerText">Privacy</h5>
-  //       <h5 className= "footerText">Returns</h5>
-        
-  //     </div>
-  //   </footer>
-
+export default Footer;

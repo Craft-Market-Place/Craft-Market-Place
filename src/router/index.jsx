@@ -8,7 +8,9 @@ import NotFound from "../pages/NotFound";
 // import Searchbar from "../components/SearchBar/Searchbar"
 import EditProduct from "../pages/EditProduct"
 import SearchBarCard from "../components/SearchBarCard";
-import PrivayPolicyCookies from "../pages/PrivacyPolicyCookies";
+import CookiesPolicy from "../pages/CookiesPolicy";
+import AboutMk from "../pages/AboutMk";
+
 
 export const router = createBrowserRouter([
     { 
@@ -52,7 +54,32 @@ export const router = createBrowserRouter([
                         element: <EditProduct />,
                         loader: loaderPost, 
                     },
+<<<<<<< HEAD
            
+=======
+                    
+                    {
+                        path: "/",
+                        element: <DeleteProduct />,
+                        loader: loaderAdvertisement,
+                    },
+
+                    {
+                       path: '/CookiesPolicy',
+                       element:<CookiesPolicy/>
+                       
+                    },
+                    
+                                      
+                     {
+                        path: '/AboutMk',
+                        element:<AboutMk/>
+            
+                        
+                     },
+
+
+>>>>>>> feature/create-navbar
                 ]
             },
          
