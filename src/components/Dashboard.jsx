@@ -1,6 +1,6 @@
 import React,{ useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./SearchBarCard.css";
+import "./Dashboard.css";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import { Link, useLoaderData } from "react-router-dom";
@@ -9,7 +9,7 @@ import { productHandler } from "../handlers/productHandler";
 
 
 
-function SearchBarCard() {
+function Dashboard() {
  
   const handleSearchChange = (event) => {
     setSearchQuery(event.target.value);
@@ -66,5 +66,5 @@ function SearchBarCard() {
   );
 }
 
-export default SearchBarCard;
+export default Dashboard;
 

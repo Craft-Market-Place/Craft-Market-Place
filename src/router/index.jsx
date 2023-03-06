@@ -6,7 +6,7 @@ import Form from '../pages/Form';
 import Post from '../pages/Post';
 import NotFound from "../pages/NotFound";
 import EditProduct from "../pages/EditProduct"
-import SearchBarCard from "../components/SearchBarCard";
+import Dashboard from "../components/Dashboard";
 import CookiesPolicy from "../pages/CookiesPolicy";
 import AboutMk from "../pages/AboutMk";
 
@@ -31,7 +31,7 @@ export const router = createBrowserRouter([
                     },
                     {
                         path: '/advertisement',
-                        element: <SearchBarCard />,
+                        element: <Dashboard />,
                         loader: loaderAdvertisement,
                     },    
                     {

@@ -1,5 +1,5 @@
 import './Advertisement.css'
-import SearchBarCard from '../components/SearchBarCard'
+import Dashboard from '../components/Dashboard'
 
 
 const Advertisement = () => { 
@@ -8,7 +8,7 @@ const Advertisement = () => {
     return (
         <>
         {productsData.map((post) => (
-            <SearchBarCard key={post.id} post={post} deleteProduct={deleteProduct} />
+            <Dashboard key={post.id} post={post} deleteProduct={deleteProduct} />
         ))}
       </>
     )
