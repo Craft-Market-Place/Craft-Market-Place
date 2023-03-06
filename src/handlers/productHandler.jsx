@@ -38,7 +38,7 @@ export const productHandler = {
             "title": updatedProduct.title,
             "price": updatedProduct.price,
             "description": updatedProduct.description,
-            "units": newProduct.units,
+            "units": updatedProduct.units,
             "user": updatedProduct.user,
             "location": updatedProduct.location,
            "img" : updatedProduct.img,

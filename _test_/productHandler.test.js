@@ -16,6 +16,7 @@ describe('productHandler', () => {
                 price: '25€',
                 description: 'Handmade vintage fabric cushions. Backed with vintage French linen, with an envelope closure. The fabric was rescued from a pair of curtains and there are matching lampshades and a bed runner to make a complete bedroom set.',
                 user:'Majealcero',
+                units: '4',
                 location:'Seville',
                 img: 'https://imagedelivery.net/0ObHXyjKhN5YJrtuYFSvjQ/i-5f32fa0d-a323-4369-bbe8-2afa77699e94-Handmade-vintage-fabric-cushion-cover-Quilterdown/display'
             };
@@ -37,6 +38,7 @@ describe('productHandler', () => {
                 "price": "20€",
                 "description": "Handmade crochet doll, fully crocheted with removable clothes and embroidered eyes. This is 'Candy Christmas'. She is filled with toy stuffing and comes from a smoke free home. She comes with her own stand so she can be displayed",
                 "user": "Majealcero",
+                "units": '4',
                 "location": "Seville",
                 "img": "https://imagedelivery.net/0ObHXyjKhN5YJrtuYFSvjQ/i-d2beea5a-08ee-4f26-9e36-e186bda45a89-Handmade-crochet-doll-Crochet-by-Traceyanne/display"
                 
@@ -47,6 +49,7 @@ describe('productHandler', () => {
                 "price": "30€",
                 "description": "A bright blue dress splattered by warm raindrops. My handmade pinafore dresses are available in four colours, this is the Royal Blue version which I've added orange and pink raindrops and blue glitter ones too spread around the lower dress. It also has a lined bodice, orange piping round arm and neck and a feature orange zip at the back. The raindrops are added individually so each dress will have a slightly different soaking of raindrops. I've used a medium weight cotton twill so it's nice and strong. Machine washable up to 40 degrees, if you use things called 'irons', you will have to do so on the reverse side of dress.",
                 "user": "Majealcero",
+                "units": '4',
                 "location": "Seville",
                 "img": "https://imagedelivery.net/0ObHXyjKhN5YJrtuYFSvjQ/i-df30520f-8836-40c3-b646-2779f0801277-Pinafore-Dress-Royal-Blue-Ladies-with-pink-orange-and-blue-graphic-raindrop--44ideas/display"
                 
@@ -67,6 +70,7 @@ describe('productHandler', () => {
       "price": "20€",
       "description": "Handmade crochet doll, fully crocheted with removable clothes and embroidered eyes. This is 'Candy Christmas'. She is filled with toy stuffing and comes from a smoke free home. She comes with her own stand so she can be displayed",
       "user": "Majealcero",
+      "units": '4',
       "location": "Seville",
       "img": "https://imagedelivery.net/0ObHXyjKhN5YJrtuYFSvjQ/i-d2beea5a-08ee-4f26-9e36-e186bda45a89-Handmade-crochet-doll-Crochet-by-Traceyanne/display"
                 
@@ -97,6 +101,7 @@ describe('productHandler', () => {
                 "price": undefined,
                 "img": undefined,
                 "user":undefined,
+                "units": undefined,
                 "location":undefined,
             });
         });
